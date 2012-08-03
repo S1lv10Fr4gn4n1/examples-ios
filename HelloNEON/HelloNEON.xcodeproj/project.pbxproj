@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9AB043215504524005507ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9AB043115504524005507ED /* UIKit.framework */; };
+		B9AB043415504524005507ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9AB043315504524005507ED /* Foundation.framework */; };
+		B9AB043615504524005507ED /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9AB043515504524005507ED /* CoreGraphics.framework */; };
+		B9AB043C15504524005507ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9AB043A15504524005507ED /* InfoPlist.strings */; };
+		B9AB043E15504524005507ED /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AB043D15504524005507ED /* main.m */; };
+		B9AB044215504524005507ED /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9AB044115504524005507ED /* AppDelegate.m */; };
+		B9AB04491550454E005507ED /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9AB04481550454E005507ED /* Storyboard.storyboard */; };
+		B9AB044C15504591005507ED /* HelloNEONViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9AB044B15504591005507ED /* HelloNEONViewController.mm */; };
+		B9AB045415504E26005507ED /* NEONCommand.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9AB045315504E26005507ED /* NEONCommand.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B9AB042D15504524005507ED /* HelloNEON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloNEON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9AB043115504524005507ED /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9AB043315504524005507ED /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9AB043515504524005507ED /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B9AB043915504524005507ED /* HelloNEON-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HelloNEON-Info.plist"; sourceTree = "<group>"; };
+		B9AB043B15504524005507ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9AB043D15504524005507ED /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9AB043F15504524005507ED /* HelloNEON-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloNEON-Prefix.pch"; sourceTree = "<group>"; };
+		B9AB044015504524005507ED /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9AB044115504524005507ED /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9AB04481550454E005507ED /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		B9AB044A15504591005507ED /* HelloNEONViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloNEONViewController.h; sourceTree = "<group>"; };
+		B9AB044B15504591005507ED /* HelloNEONViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloNEONViewController.mm; sourceTree = "<group>"; };
+		B9AB045315504E26005507ED /* NEONCommand.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NEONCommand.cpp; path = ../NEONCommand.cpp; sourceTree = "<group>"; };
+		B9AB045515504E34005507ED /* NEONCommand.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = NEONCommand.h; path = ../NEONCommand.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9AB042A15504524005507ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9AB043215504524005507ED /* UIKit.framework in Frameworks */,
+				B9AB043415504524005507ED /* Foundation.framework in Frameworks */,
+				B9AB043615504524005507ED /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9AB042215504524005507ED = {
+			isa = PBXGroup;
+			children = (
+				B9AB043715504524005507ED /* HelloNEON */,
+				B9AB043015504524005507ED /* Frameworks */,
+				B9AB042E15504524005507ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9AB042E15504524005507ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9AB042D15504524005507ED /* HelloNEON.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9AB043015504524005507ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9AB043115504524005507ED /* UIKit.framework */,
+				B9AB043315504524005507ED /* Foundation.framework */,
+				B9AB043515504524005507ED /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9AB043715504524005507ED /* HelloNEON */ = {
+			isa = PBXGroup;
+			children = (
+				B9AB044015504524005507ED /* AppDelegate.h */,
+				B9AB044115504524005507ED /* AppDelegate.m */,
+				B9AB04481550454E005507ED /* Storyboard.storyboard */,
+				B9AB044A15504591005507ED /* HelloNEONViewController.h */,
+				B9AB044B15504591005507ED /* HelloNEONViewController.mm */,
+				B9AB045515504E34005507ED /* NEONCommand.h */,
+				B9AB045315504E26005507ED /* NEONCommand.cpp */,
+				B9AB043815504524005507ED /* Supporting Files */,
+			);
+			path = HelloNEON;
+			sourceTree = "<group>";
+		};
+		B9AB043815504524005507ED /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9AB043915504524005507ED /* HelloNEON-Info.plist */,
+				B9AB043A15504524005507ED /* InfoPlist.strings */,
+				B9AB043D15504524005507ED /* main.m */,
+				B9AB043F15504524005507ED /* HelloNEON-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9AB042C15504524005507ED /* HelloNEON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9AB044515504524005507ED /* Build configuration list for PBXNativeTarget "HelloNEON" */;
+			buildPhases = (
+				B9AB042915504524005507ED /* Sources */,
+				B9AB042A15504524005507ED /* Frameworks */,
+				B9AB042B15504524005507ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloNEON;
+			productName = HelloNEON;
+			productReference = B9AB042D15504524005507ED /* HelloNEON.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9AB042415504524005507ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B9AB042715504524005507ED /* Build configuration list for PBXProject "HelloNEON" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B9AB042215504524005507ED;
+			productRefGroup = B9AB042E15504524005507ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9AB042C15504524005507ED /* HelloNEON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9AB042B15504524005507ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9AB043C15504524005507ED /* InfoPlist.strings in Resources */,
+				B9AB04491550454E005507ED /* Storyboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9AB042915504524005507ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9AB043E15504524005507ED /* main.m in Sources */,
+				B9AB044215504524005507ED /* AppDelegate.m in Sources */,
+				B9AB044C15504591005507ED /* HelloNEONViewController.mm in Sources */,
+				B9AB045415504E26005507ED /* NEONCommand.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9AB043A15504524005507ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9AB043B15504524005507ED /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9AB044315504524005507ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B9AB044415504524005507ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9AB044615504524005507ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloNEON/HelloNEON-Prefix.pch";
+				INFOPLIST_FILE = "HelloNEON/HelloNEON-Info.plist";
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				OTHER_CFLAGS = (
+					"-mfpu=neon",
+					"-mfloat-abi=softfp",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B9AB044715504524005507ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_INPUT_FILETYPE = sourcecode.cpp.objcpp;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloNEON/HelloNEON-Prefix.pch";
+				INFOPLIST_FILE = "HelloNEON/HelloNEON-Info.plist";
+				INFOPLIST_OTHER_PREPROCESSOR_FLAGS = "";
+				OTHER_CFLAGS = (
+					"-mfpu=neon",
+					"-mfloat-abi=softfp",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9AB042715504524005507ED /* Build configuration list for PBXProject "HelloNEON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9AB044315504524005507ED /* Debug */,
+				B9AB044415504524005507ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9AB044515504524005507ED /* Build configuration list for PBXNativeTarget "HelloNEON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9AB044615504524005507ED /* Debug */,
+				B9AB044715504524005507ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9AB042415504524005507ED /* Project object */;
+}

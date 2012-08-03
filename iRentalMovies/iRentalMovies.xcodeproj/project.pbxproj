@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B96D5744150B776300C68CE9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96D5743150B776300C68CE9 /* UIKit.framework */; };
+		B96D5746150B776300C68CE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96D5745150B776300C68CE9 /* Foundation.framework */; };
+		B96D5748150B776300C68CE9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B96D5747150B776300C68CE9 /* CoreGraphics.framework */; };
+		B96D574E150B776300C68CE9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B96D574C150B776300C68CE9 /* InfoPlist.strings */; };
+		B96D5750150B776300C68CE9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B96D574F150B776300C68CE9 /* main.m */; };
+		B96D5754150B776300C68CE9 /* SFSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B96D5753150B776300C68CE9 /* SFSAppDelegate.m */; };
+		B96D575B150B77BC00C68CE9 /* iRentalMovies.iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B96D575A150B77BC00C68CE9 /* iRentalMovies.iPad.storyboard */; };
+		B96D575E150B7D6000C68CE9 /* movie.projector.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B96D575D150B7D6000C68CE9 /* movie.projector.jpg */; };
+		B96D5764150B7D6900C68CE9 /* god.at.the.movies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B96D575F150B7D6900C68CE9 /* god.at.the.movies.jpg */; };
+		B96D5765150B7D6900C68CE9 /* movie.night.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B96D5760150B7D6900C68CE9 /* movie.night.jpg */; };
+		B96D5766150B7D6900C68CE9 /* movies02.gif in Resources */ = {isa = PBXBuildFile; fileRef = B96D5761150B7D6900C68CE9 /* movies02.gif */; };
+		B96D5767150B7D6900C68CE9 /* movies01.JPG in Resources */ = {isa = PBXBuildFile; fileRef = B96D5762150B7D6900C68CE9 /* movies01.JPG */; };
+		B96D576B150B7F0F00C68CE9 /* SFSInitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B96D576A150B7F0F00C68CE9 /* SFSInitViewController.m */; };
+		B96D576E150B846600C68CE9 /* SFSTableCustomersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B96D576D150B846600C68CE9 /* SFSTableCustomersViewController.m */; };
+		B96D5771150B847E00C68CE9 /* SFSTableMoviesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B96D5770150B847E00C68CE9 /* SFSTableMoviesViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B96D573F150B776300C68CE9 /* iRentalMovies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iRentalMovies.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B96D5743150B776300C68CE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B96D5745150B776300C68CE9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B96D5747150B776300C68CE9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B96D574B150B776300C68CE9 /* iRentalMovies-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iRentalMovies-Info.plist"; sourceTree = "<group>"; };
+		B96D574D150B776300C68CE9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B96D574F150B776300C68CE9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B96D5751150B776300C68CE9 /* iRentalMovies-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iRentalMovies-Prefix.pch"; sourceTree = "<group>"; };
+		B96D5752150B776300C68CE9 /* SFSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFSAppDelegate.h; sourceTree = "<group>"; };
+		B96D5753150B776300C68CE9 /* SFSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFSAppDelegate.m; sourceTree = "<group>"; };
+		B96D575A150B77BC00C68CE9 /* iRentalMovies.iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iRentalMovies.iPad.storyboard; sourceTree = "<group>"; };
+		B96D575D150B7D6000C68CE9 /* movie.projector.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = movie.projector.jpg; path = images/movie.projector.jpg; sourceTree = "<group>"; };
+		B96D575F150B7D6900C68CE9 /* god.at.the.movies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = god.at.the.movies.jpg; path = images/god.at.the.movies.jpg; sourceTree = "<group>"; };
+		B96D5760150B7D6900C68CE9 /* movie.night.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = movie.night.jpg; path = images/movie.night.jpg; sourceTree = "<group>"; };
+		B96D5761150B7D6900C68CE9 /* movies02.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = movies02.gif; path = images/movies02.gif; sourceTree = "<group>"; };
+		B96D5762150B7D6900C68CE9 /* movies01.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = movies01.JPG; path = images/movies01.JPG; sourceTree = "<group>"; };
+		B96D5769150B7F0F00C68CE9 /* SFSInitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSInitViewController.h; sourceTree = "<group>"; };
+		B96D576A150B7F0F00C68CE9 /* SFSInitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFSInitViewController.m; sourceTree = "<group>"; };
+		B96D576C150B846600C68CE9 /* SFSTableCustomersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSTableCustomersViewController.h; sourceTree = "<group>"; };
+		B96D576D150B846600C68CE9 /* SFSTableCustomersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFSTableCustomersViewController.m; sourceTree = "<group>"; };
+		B96D576F150B847E00C68CE9 /* SFSTableMoviesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSTableMoviesViewController.h; sourceTree = "<group>"; };
+		B96D5770150B847E00C68CE9 /* SFSTableMoviesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFSTableMoviesViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B96D573C150B776300C68CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96D5744150B776300C68CE9 /* UIKit.framework in Frameworks */,
+				B96D5746150B776300C68CE9 /* Foundation.framework in Frameworks */,
+				B96D5748150B776300C68CE9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B96D5734150B776300C68CE9 = {
+			isa = PBXGroup;
+			children = (
+				B96D5749150B776300C68CE9 /* iRentalMovies */,
+				B96D5742150B776300C68CE9 /* Frameworks */,
+				B96D5740150B776300C68CE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B96D5740150B776300C68CE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B96D573F150B776300C68CE9 /* iRentalMovies.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B96D5742150B776300C68CE9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B96D5743150B776300C68CE9 /* UIKit.framework */,
+				B96D5745150B776300C68CE9 /* Foundation.framework */,
+				B96D5747150B776300C68CE9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B96D5749150B776300C68CE9 /* iRentalMovies */ = {
+			isa = PBXGroup;
+			children = (
+				B96D5752150B776300C68CE9 /* SFSAppDelegate.h */,
+				B96D5753150B776300C68CE9 /* SFSAppDelegate.m */,
+				B96D575A150B77BC00C68CE9 /* iRentalMovies.iPad.storyboard */,
+				B96D5769150B7F0F00C68CE9 /* SFSInitViewController.h */,
+				B96D576A150B7F0F00C68CE9 /* SFSInitViewController.m */,
+				B96D576C150B846600C68CE9 /* SFSTableCustomersViewController.h */,
+				B96D576D150B846600C68CE9 /* SFSTableCustomersViewController.m */,
+				B96D576F150B847E00C68CE9 /* SFSTableMoviesViewController.h */,
+				B96D5770150B847E00C68CE9 /* SFSTableMoviesViewController.m */,
+				B96D574A150B776300C68CE9 /* Supporting Files */,
+				B96D575C150B7D4400C68CE9 /* images */,
+			);
+			path = iRentalMovies;
+			sourceTree = "<group>";
+		};
+		B96D574A150B776300C68CE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B96D574B150B776300C68CE9 /* iRentalMovies-Info.plist */,
+				B96D574C150B776300C68CE9 /* InfoPlist.strings */,
+				B96D574F150B776300C68CE9 /* main.m */,
+				B96D5751150B776300C68CE9 /* iRentalMovies-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B96D575C150B7D4400C68CE9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B96D575F150B7D6900C68CE9 /* god.at.the.movies.jpg */,
+				B96D5760150B7D6900C68CE9 /* movie.night.jpg */,
+				B96D5761150B7D6900C68CE9 /* movies02.gif */,
+				B96D5762150B7D6900C68CE9 /* movies01.JPG */,
+				B96D575D150B7D6000C68CE9 /* movie.projector.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B96D573E150B776300C68CE9 /* iRentalMovies */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B96D5757150B776300C68CE9 /* Build configuration list for PBXNativeTarget "iRentalMovies" */;
+			buildPhases = (
+				B96D573B150B776300C68CE9 /* Sources */,
+				B96D573C150B776300C68CE9 /* Frameworks */,
+				B96D573D150B776300C68CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iRentalMovies;
+			productName = iRentalMovies;
+			productReference = B96D573F150B776300C68CE9 /* iRentalMovies.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B96D5736150B776300C68CE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SFS;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B96D5739150B776300C68CE9 /* Build configuration list for PBXProject "iRentalMovies" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B96D5734150B776300C68CE9;
+			productRefGroup = B96D5740150B776300C68CE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B96D573E150B776300C68CE9 /* iRentalMovies */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B96D573D150B776300C68CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96D574E150B776300C68CE9 /* InfoPlist.strings in Resources */,
+				B96D575B150B77BC00C68CE9 /* iRentalMovies.iPad.storyboard in Resources */,
+				B96D575E150B7D6000C68CE9 /* movie.projector.jpg in Resources */,
+				B96D5764150B7D6900C68CE9 /* god.at.the.movies.jpg in Resources */,
+				B96D5765150B7D6900C68CE9 /* movie.night.jpg in Resources */,
+				B96D5766150B7D6900C68CE9 /* movies02.gif in Resources */,
+				B96D5767150B7D6900C68CE9 /* movies01.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B96D573B150B776300C68CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B96D5750150B776300C68CE9 /* main.m in Sources */,
+				B96D5754150B776300C68CE9 /* SFSAppDelegate.m in Sources */,
+				B96D576B150B7F0F00C68CE9 /* SFSInitViewController.m in Sources */,
+				B96D576E150B846600C68CE9 /* SFSTableCustomersViewController.m in Sources */,
+				B96D5771150B847E00C68CE9 /* SFSTableMoviesViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B96D574C150B776300C68CE9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B96D574D150B776300C68CE9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B96D5755150B776300C68CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B96D5756150B776300C68CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B96D5758150B776300C68CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRentalMovies/iRentalMovies-Prefix.pch";
+				INFOPLIST_FILE = "iRentalMovies/iRentalMovies-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B96D5759150B776300C68CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iRentalMovies/iRentalMovies-Prefix.pch";
+				INFOPLIST_FILE = "iRentalMovies/iRentalMovies-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B96D5739150B776300C68CE9 /* Build configuration list for PBXProject "iRentalMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96D5755150B776300C68CE9 /* Debug */,
+				B96D5756150B776300C68CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B96D5757150B776300C68CE9 /* Build configuration list for PBXNativeTarget "iRentalMovies" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B96D5758150B776300C68CE9 /* Debug */,
+				B96D5759150B776300C68CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B96D5736150B776300C68CE9 /* Project object */;
+}

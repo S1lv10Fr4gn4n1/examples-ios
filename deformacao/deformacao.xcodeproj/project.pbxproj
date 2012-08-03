@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D3C3C18147598B600E285B6 /* World.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C3C17147598B600E285B6 /* World.m */; };
+		5D3C3C1C147598C800E285B6 /* Particle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C3C1B147598C800E285B6 /* Particle.m */; };
+		5D3C3C2314759DB600E285B6 /* Vector2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3C3C2214759DB600E285B6 /* Vector2.m */; };
+		5D3D80611476FC48005FECC7 /* GravityForce.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3D80601476FC48005FECC7 /* GravityForce.m */; };
+		5D3D806514770222005FECC7 /* LockForce.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3D806414770222005FECC7 /* LockForce.m */; };
+		5D3D806814770708005FECC7 /* RectangleBlueprint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D3D806714770708005FECC7 /* RectangleBlueprint.m */; };
+		5D5055B01479BEEE00146F06 /* NDC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D5055AF1479BEED00146F06 /* NDC.m */; };
+		5D59D71614784D32007C63D3 /* ManagedList.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D59D71514784D32007C63D3 /* ManagedList.m */; };
+		5D7AC8C8147943800065D74B /* NSMutableArray+QueueAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AC8C71479437F0065D74B /* NSMutableArray+QueueAdditions.m */; };
+		5D7AC8CB147945370065D74B /* ParticleAndDepth.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7AC8CA147945370065D74B /* ParticleAndDepth.m */; };
+		5DDA82071476E9FE00E80078 /* EnvironmentForce.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDA82061476E9FE00E80078 /* EnvironmentForce.m */; };
+		5DDA820A1476ED5400E80078 /* Body.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DDA82091476ED5400E80078 /* Body.m */; };
+		5DE5D451147838D600A0D8AD /* Point2D.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE5D450147838D600A0D8AD /* Point2D.m */; };
+		5DE5D4541478392100A0D8AD /* LatticePoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE5D4531478392100A0D8AD /* LatticePoint.m */; };
+		5DE5D457147839AA00A0D8AD /* SmoothingRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE5D456147839AA00A0D8AD /* SmoothingRegion.m */; };
+		5DE5D45A14783F4300A0D8AD /* Matrix2x2.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DE5D45914783F4300A0D8AD /* Matrix2x2.m */; };
+		B95255DB146B2DAF00C0500A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95255DA146B2DAF00C0500A /* UIKit.framework */; };
+		B95255DD146B2DAF00C0500A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95255DC146B2DAF00C0500A /* Foundation.framework */; };
+		B95255DF146B2DAF00C0500A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95255DE146B2DAF00C0500A /* CoreGraphics.framework */; };
+		B95255E1146B2DAF00C0500A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95255E0146B2DAF00C0500A /* QuartzCore.framework */; };
+		B95255E3146B2DAF00C0500A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B95255E2146B2DAF00C0500A /* OpenGLES.framework */; };
+		B95255E9146B2DAF00C0500A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B95255E7146B2DAF00C0500A /* InfoPlist.strings */; };
+		B95255EC146B2DAF00C0500A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B95255EB146B2DAF00C0500A /* main.m */; };
+		B95255EF146B2DAF00C0500A /* deformacaoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B95255EE146B2DAF00C0500A /* deformacaoAppDelegate.m */; };
+		B95255F2146B2DAF00C0500A /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = B95255F0146B2DAF00C0500A /* MainWindow.xib */; };
+		B95255F9146B2DAF00C0500A /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = B95255F8146B2DAF00C0500A /* EAGLView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B95255FC146B2DAF00C0500A /* deformacaoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B95255FB146B2DAF00C0500A /* deformacaoViewController.m */; };
+		B95255FF146B2DAF00C0500A /* deformacaoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B95255FD146B2DAF00C0500A /* deformacaoViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5D3C3C16147598B600E285B6 /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = World.h; sourceTree = "<group>"; };
+		5D3C3C17147598B600E285B6 /* World.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = World.m; sourceTree = "<group>"; };
+		5D3C3C1A147598C800E285B6 /* Particle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Particle.h; sourceTree = "<group>"; };
+		5D3C3C1B147598C800E285B6 /* Particle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Particle.m; sourceTree = "<group>"; };
+		5D3C3C2114759DB600E285B6 /* Vector2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vector2.h; sourceTree = "<group>"; };
+		5D3C3C2214759DB600E285B6 /* Vector2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vector2.m; sourceTree = "<group>"; };
+		5D3D805F1476FC48005FECC7 /* GravityForce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GravityForce.h; sourceTree = "<group>"; };
+		5D3D80601476FC48005FECC7 /* GravityForce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GravityForce.m; sourceTree = "<group>"; };
+		5D3D806314770222005FECC7 /* LockForce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LockForce.h; sourceTree = "<group>"; };
+		5D3D806414770222005FECC7 /* LockForce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LockForce.m; sourceTree = "<group>"; };
+		5D3D806614770707005FECC7 /* RectangleBlueprint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RectangleBlueprint.h; sourceTree = "<group>"; };
+		5D3D806714770708005FECC7 /* RectangleBlueprint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RectangleBlueprint.m; sourceTree = "<group>"; };
+		5D5055AE1479BEEB00146F06 /* NDC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NDC.h; sourceTree = "<group>"; };
+		5D5055AF1479BEED00146F06 /* NDC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NDC.m; sourceTree = "<group>"; };
+		5D59D71414784D32007C63D3 /* ManagedList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagedList.h; sourceTree = "<group>"; };
+		5D59D71514784D32007C63D3 /* ManagedList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagedList.m; sourceTree = "<group>"; };
+		5D7AC8C61479437F0065D74B /* NSMutableArray+QueueAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableArray+QueueAdditions.h"; sourceTree = "<group>"; };
+		5D7AC8C71479437F0065D74B /* NSMutableArray+QueueAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+QueueAdditions.m"; sourceTree = "<group>"; };
+		5D7AC8C9147945370065D74B /* ParticleAndDepth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParticleAndDepth.h; sourceTree = "<group>"; };
+		5D7AC8CA147945370065D74B /* ParticleAndDepth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParticleAndDepth.m; sourceTree = "<group>"; };
+		5DDA82051476E9FE00E80078 /* EnvironmentForce.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnvironmentForce.h; sourceTree = "<group>"; };
+		5DDA82061476E9FE00E80078 /* EnvironmentForce.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnvironmentForce.m; sourceTree = "<group>"; };
+		5DDA82081476ED5400E80078 /* Body.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Body.h; sourceTree = "<group>"; };
+		5DDA82091476ED5400E80078 /* Body.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Body.m; sourceTree = "<group>"; };
+		5DE5D44F147838D600A0D8AD /* Point2D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Point2D.h; sourceTree = "<group>"; };
+		5DE5D450147838D600A0D8AD /* Point2D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Point2D.m; sourceTree = "<group>"; };
+		5DE5D4521478392100A0D8AD /* LatticePoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LatticePoint.h; sourceTree = "<group>"; };
+		5DE5D4531478392100A0D8AD /* LatticePoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LatticePoint.m; sourceTree = "<group>"; };
+		5DE5D455147839AA00A0D8AD /* SmoothingRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothingRegion.h; sourceTree = "<group>"; };
+		5DE5D456147839AA00A0D8AD /* SmoothingRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothingRegion.m; sourceTree = "<group>"; };
+		5DE5D45814783F4300A0D8AD /* Matrix2x2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix2x2.h; sourceTree = "<group>"; };
+		5DE5D45914783F4300A0D8AD /* Matrix2x2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Matrix2x2.m; sourceTree = "<group>"; };
+		B95255D6146B2DAF00C0500A /* deformacao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deformacao.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95255DA146B2DAF00C0500A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B95255DC146B2DAF00C0500A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B95255DE146B2DAF00C0500A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B95255E0146B2DAF00C0500A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		B95255E2146B2DAF00C0500A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B95255E6146B2DAF00C0500A /* deformacao-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "deformacao-Info.plist"; sourceTree = "<group>"; };
+		B95255E8146B2DAF00C0500A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B95255EA146B2DAF00C0500A /* deformacao-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "deformacao-Prefix.pch"; sourceTree = "<group>"; };
+		B95255EB146B2DAF00C0500A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B95255ED146B2DAF00C0500A /* deformacaoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = deformacaoAppDelegate.h; sourceTree = "<group>"; };
+		B95255EE146B2DAF00C0500A /* deformacaoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = deformacaoAppDelegate.m; sourceTree = "<group>"; };
+		B95255F1146B2DAF00C0500A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		B95255F7146B2DAF00C0500A /* EAGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
+		B95255F8146B2DAF00C0500A /* EAGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		B95255FA146B2DAF00C0500A /* deformacaoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = deformacaoViewController.h; sourceTree = "<group>"; };
+		B95255FB146B2DAF00C0500A /* deformacaoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = deformacaoViewController.m; sourceTree = "<group>"; };
+		B95255FE146B2DAF00C0500A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/deformacaoViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B95255D3146B2DAF00C0500A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95255DB146B2DAF00C0500A /* UIKit.framework in Frameworks */,
+				B95255DD146B2DAF00C0500A /* Foundation.framework in Frameworks */,
+				B95255DF146B2DAF00C0500A /* CoreGraphics.framework in Frameworks */,
+				B95255E1146B2DAF00C0500A /* QuartzCore.framework in Frameworks */,
+				B95255E3146B2DAF00C0500A /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D3C3C20147598F600E285B6 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				5D3C3C1A147598C800E285B6 /* Particle.h */,
+				5D3C3C1B147598C800E285B6 /* Particle.m */,
+				5D3C3C16147598B600E285B6 /* World.h */,
+				5D3C3C17147598B600E285B6 /* World.m */,
+				5D3C3C2114759DB600E285B6 /* Vector2.h */,
+				5D3C3C2214759DB600E285B6 /* Vector2.m */,
+				5DDA82051476E9FE00E80078 /* EnvironmentForce.h */,
+				5DDA82061476E9FE00E80078 /* EnvironmentForce.m */,
+				5DDA82081476ED5400E80078 /* Body.h */,
+				5DDA82091476ED5400E80078 /* Body.m */,
+				5D3D805F1476FC48005FECC7 /* GravityForce.h */,
+				5D3D80601476FC48005FECC7 /* GravityForce.m */,
+				5D3D806314770222005FECC7 /* LockForce.h */,
+				5D3D806414770222005FECC7 /* LockForce.m */,
+				5D3D806614770707005FECC7 /* RectangleBlueprint.h */,
+				5D3D806714770708005FECC7 /* RectangleBlueprint.m */,
+				5DE5D44F147838D600A0D8AD /* Point2D.h */,
+				5DE5D450147838D600A0D8AD /* Point2D.m */,
+				5DE5D4521478392100A0D8AD /* LatticePoint.h */,
+				5DE5D4531478392100A0D8AD /* LatticePoint.m */,
+				5DE5D455147839AA00A0D8AD /* SmoothingRegion.h */,
+				5DE5D456147839AA00A0D8AD /* SmoothingRegion.m */,
+				5DE5D45814783F4300A0D8AD /* Matrix2x2.h */,
+				5DE5D45914783F4300A0D8AD /* Matrix2x2.m */,
+				5D59D71414784D32007C63D3 /* ManagedList.h */,
+				5D59D71514784D32007C63D3 /* ManagedList.m */,
+				5D7AC8C9147945370065D74B /* ParticleAndDepth.h */,
+				5D7AC8CA147945370065D74B /* ParticleAndDepth.m */,
+				5D5055AE1479BEEB00146F06 /* NDC.h */,
+				5D5055AF1479BEED00146F06 /* NDC.m */,
+				5D7AC8C4147943410065D74B /* util */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		5D7AC8C4147943410065D74B /* util */ = {
+			isa = PBXGroup;
+			children = (
+				5D7AC8C61479437F0065D74B /* NSMutableArray+QueueAdditions.h */,
+				5D7AC8C71479437F0065D74B /* NSMutableArray+QueueAdditions.m */,
+			);
+			name = util;
+			sourceTree = "<group>";
+		};
+		B95255CB146B2DAF00C0500A = {
+			isa = PBXGroup;
+			children = (
+				B95255E4146B2DAF00C0500A /* deformacao */,
+				B95255D9146B2DAF00C0500A /* Frameworks */,
+				B95255D7146B2DAF00C0500A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B95255D7146B2DAF00C0500A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B95255D6146B2DAF00C0500A /* deformacao.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B95255D9146B2DAF00C0500A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B95255DA146B2DAF00C0500A /* UIKit.framework */,
+				B95255DC146B2DAF00C0500A /* Foundation.framework */,
+				B95255DE146B2DAF00C0500A /* CoreGraphics.framework */,
+				B95255E0146B2DAF00C0500A /* QuartzCore.framework */,
+				B95255E2146B2DAF00C0500A /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B95255E4146B2DAF00C0500A /* deformacao */ = {
+			isa = PBXGroup;
+			children = (
+				5D3C3C20147598F600E285B6 /* model */,
+				B95255ED146B2DAF00C0500A /* deformacaoAppDelegate.h */,
+				B95255EE146B2DAF00C0500A /* deformacaoAppDelegate.m */,
+				B95255F0146B2DAF00C0500A /* MainWindow.xib */,
+				B95255F7146B2DAF00C0500A /* EAGLView.h */,
+				B95255F8146B2DAF00C0500A /* EAGLView.m */,
+				B95255FA146B2DAF00C0500A /* deformacaoViewController.h */,
+				B95255FB146B2DAF00C0500A /* deformacaoViewController.m */,
+				B95255FD146B2DAF00C0500A /* deformacaoViewController.xib */,
+				B95255E5146B2DAF00C0500A /* Supporting Files */,
+			);
+			path = deformacao;
+			sourceTree = "<group>";
+		};
+		B95255E5146B2DAF00C0500A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B95255E6146B2DAF00C0500A /* deformacao-Info.plist */,
+				B95255E7146B2DAF00C0500A /* InfoPlist.strings */,
+				B95255EA146B2DAF00C0500A /* deformacao-Prefix.pch */,
+				B95255EB146B2DAF00C0500A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B95255D5146B2DAF00C0500A /* deformacao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9525602146B2DAF00C0500A /* Build configuration list for PBXNativeTarget "deformacao" */;
+			buildPhases = (
+				B95255D2146B2DAF00C0500A /* Sources */,
+				B95255D3146B2DAF00C0500A /* Frameworks */,
+				B95255D4146B2DAF00C0500A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = deformacao;
+			productName = deformacao;
+			productReference = B95255D6146B2DAF00C0500A /* deformacao.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B95255CD146B2DAF00C0500A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B95255D0146B2DAF00C0500A /* Build configuration list for PBXProject "deformacao" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B95255CB146B2DAF00C0500A;
+			productRefGroup = B95255D7146B2DAF00C0500A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B95255D5146B2DAF00C0500A /* deformacao */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B95255D4146B2DAF00C0500A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95255E9146B2DAF00C0500A /* InfoPlist.strings in Resources */,
+				B95255F2146B2DAF00C0500A /* MainWindow.xib in Resources */,
+				B95255FF146B2DAF00C0500A /* deformacaoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B95255D2146B2DAF00C0500A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B95255EC146B2DAF00C0500A /* main.m in Sources */,
+				B95255EF146B2DAF00C0500A /* deformacaoAppDelegate.m in Sources */,
+				B95255F9146B2DAF00C0500A /* EAGLView.m in Sources */,
+				B95255FC146B2DAF00C0500A /* deformacaoViewController.m in Sources */,
+				5D3C3C18147598B600E285B6 /* World.m in Sources */,
+				5D3C3C1C147598C800E285B6 /* Particle.m in Sources */,
+				5D3C3C2314759DB600E285B6 /* Vector2.m in Sources */,
+				5DDA82071476E9FE00E80078 /* EnvironmentForce.m in Sources */,
+				5DDA820A1476ED5400E80078 /* Body.m in Sources */,
+				5D3D80611476FC48005FECC7 /* GravityForce.m in Sources */,
+				5D3D806514770222005FECC7 /* LockForce.m in Sources */,
+				5D3D806814770708005FECC7 /* RectangleBlueprint.m in Sources */,
+				5DE5D451147838D600A0D8AD /* Point2D.m in Sources */,
+				5DE5D4541478392100A0D8AD /* LatticePoint.m in Sources */,
+				5DE5D457147839AA00A0D8AD /* SmoothingRegion.m in Sources */,
+				5DE5D45A14783F4300A0D8AD /* Matrix2x2.m in Sources */,
+				5D59D71614784D32007C63D3 /* ManagedList.m in Sources */,
+				5D7AC8C8147943800065D74B /* NSMutableArray+QueueAdditions.m in Sources */,
+				5D7AC8CB147945370065D74B /* ParticleAndDepth.m in Sources */,
+				5D5055B01479BEEE00146F06 /* NDC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B95255E7146B2DAF00C0500A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B95255E8146B2DAF00C0500A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B95255F0146B2DAF00C0500A /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B95255F1146B2DAF00C0500A /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		B95255FD146B2DAF00C0500A /* deformacaoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B95255FE146B2DAF00C0500A /* en */,
+			);
+			name = deformacaoViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9525600146B2DAF00C0500A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B9525601146B2DAF00C0500A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		B9525603146B2DAF00C0500A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "deformacao/deformacao-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "deformacao/deformacao-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B9525604146B2DAF00C0500A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "deformacao/deformacao-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "deformacao/deformacao-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B95255D0146B2DAF00C0500A /* Build configuration list for PBXProject "deformacao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9525600146B2DAF00C0500A /* Debug */,
+				B9525601146B2DAF00C0500A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9525602146B2DAF00C0500A /* Build configuration list for PBXNativeTarget "deformacao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9525603146B2DAF00C0500A /* Debug */,
+				B9525604146B2DAF00C0500A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B95255CD146B2DAF00C0500A /* Project object */;
+}

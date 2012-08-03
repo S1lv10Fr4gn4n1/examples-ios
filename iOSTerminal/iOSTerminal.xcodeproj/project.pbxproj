@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9C1EDD214A63C46003525A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C1EDD114A63C46003525A1 /* UIKit.framework */; };
+		B9C1EDD414A63C46003525A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C1EDD314A63C46003525A1 /* Foundation.framework */; };
+		B9C1EDD614A63C46003525A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C1EDD514A63C46003525A1 /* CoreGraphics.framework */; };
+		B9C1EDDC14A63C46003525A1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9C1EDDA14A63C46003525A1 /* InfoPlist.strings */; };
+		B9C1EDDE14A63C46003525A1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C1EDDD14A63C46003525A1 /* main.m */; };
+		B9C1EDE214A63C46003525A1 /* SFSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C1EDE114A63C46003525A1 /* SFSAppDelegate.m */; };
+		B9C1EDE514A63C46003525A1 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9C1EDE314A63C46003525A1 /* MainStoryboard.storyboard */; };
+		B9C1EDE814A63C46003525A1 /* SFSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C1EDE714A63C46003525A1 /* SFSViewController.m */; };
+		B9C1EDFA14A653B2003525A1 /* iOSTerminal.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C1EDF914A653B2003525A1 /* iOSTerminal.png */; };
+		B9C1EE0014A75405003525A1 /* barra.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C1EDFF14A75405003525A1 /* barra.png */; };
+		B9C1EE0714A75E0D003525A1 /* SFSCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = B9C1EE0614A75E0D003525A1 /* SFSCommand.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B9C1EDCD14A63C46003525A1 /* iOSTerminal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSTerminal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9C1EDD114A63C46003525A1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9C1EDD314A63C46003525A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9C1EDD514A63C46003525A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B9C1EDD914A63C46003525A1 /* iOSTerminal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSTerminal-Info.plist"; sourceTree = "<group>"; };
+		B9C1EDDB14A63C46003525A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9C1EDDD14A63C46003525A1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9C1EDDF14A63C46003525A1 /* iOSTerminal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSTerminal-Prefix.pch"; sourceTree = "<group>"; };
+		B9C1EDE014A63C46003525A1 /* SFSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFSAppDelegate.h; sourceTree = "<group>"; };
+		B9C1EDE114A63C46003525A1 /* SFSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFSAppDelegate.m; sourceTree = "<group>"; };
+		B9C1EDE414A63C46003525A1 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B9C1EDE614A63C46003525A1 /* SFSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SFSViewController.h; sourceTree = "<group>"; };
+		B9C1EDE714A63C46003525A1 /* SFSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SFSViewController.m; sourceTree = "<group>"; };
+		B9C1EDF214A6401D003525A1 /* NSTask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSTask.h; sourceTree = "<group>"; };
+		B9C1EDF914A653B2003525A1 /* iOSTerminal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iOSTerminal.png; sourceTree = "<group>"; };
+		B9C1EDFF14A75405003525A1 /* barra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = barra.png; sourceTree = "<group>"; };
+		B9C1EE0514A75E0D003525A1 /* SFSCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SFSCommand.h; sourceTree = "<group>"; };
+		B9C1EE0614A75E0D003525A1 /* SFSCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SFSCommand.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9C1EDCA14A63C46003525A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C1EDD214A63C46003525A1 /* UIKit.framework in Frameworks */,
+				B9C1EDD414A63C46003525A1 /* Foundation.framework in Frameworks */,
+				B9C1EDD614A63C46003525A1 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9C1EDC214A63C46003525A1 = {
+			isa = PBXGroup;
+			children = (
+				B9C1EDF914A653B2003525A1 /* iOSTerminal.png */,
+				B9C1EDD714A63C46003525A1 /* iOSTerminal */,
+				B9C1EDD014A63C46003525A1 /* Frameworks */,
+				B9C1EDCE14A63C46003525A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9C1EDCE14A63C46003525A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9C1EDCD14A63C46003525A1 /* iOSTerminal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9C1EDD014A63C46003525A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9C1EDD114A63C46003525A1 /* UIKit.framework */,
+				B9C1EDD314A63C46003525A1 /* Foundation.framework */,
+				B9C1EDD514A63C46003525A1 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9C1EDD714A63C46003525A1 /* iOSTerminal */ = {
+			isa = PBXGroup;
+			children = (
+				B9C1EDF214A6401D003525A1 /* NSTask.h */,
+				B9C1EDE014A63C46003525A1 /* SFSAppDelegate.h */,
+				B9C1EDE114A63C46003525A1 /* SFSAppDelegate.m */,
+				B9C1EDE314A63C46003525A1 /* MainStoryboard.storyboard */,
+				B9C1EDE614A63C46003525A1 /* SFSViewController.h */,
+				B9C1EDE714A63C46003525A1 /* SFSViewController.m */,
+				B9C1EE0514A75E0D003525A1 /* SFSCommand.h */,
+				B9C1EE0614A75E0D003525A1 /* SFSCommand.m */,
+				B9C1EDD814A63C46003525A1 /* Supporting Files */,
+			);
+			path = iOSTerminal;
+			sourceTree = "<group>";
+		};
+		B9C1EDD814A63C46003525A1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9C1EDFF14A75405003525A1 /* barra.png */,
+				B9C1EDD914A63C46003525A1 /* iOSTerminal-Info.plist */,
+				B9C1EDDA14A63C46003525A1 /* InfoPlist.strings */,
+				B9C1EDDD14A63C46003525A1 /* main.m */,
+				B9C1EDDF14A63C46003525A1 /* iOSTerminal-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9C1EDCC14A63C46003525A1 /* iOSTerminal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9C1EDEB14A63C46003525A1 /* Build configuration list for PBXNativeTarget "iOSTerminal" */;
+			buildPhases = (
+				B9C1EDC914A63C46003525A1 /* Sources */,
+				B9C1EDCA14A63C46003525A1 /* Frameworks */,
+				B9C1EDCB14A63C46003525A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSTerminal;
+			productName = iOSTerminal;
+			productReference = B9C1EDCD14A63C46003525A1 /* iOSTerminal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9C1EDC414A63C46003525A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B9C1EDC714A63C46003525A1 /* Build configuration list for PBXProject "iOSTerminal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B9C1EDC214A63C46003525A1;
+			productRefGroup = B9C1EDCE14A63C46003525A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9C1EDCC14A63C46003525A1 /* iOSTerminal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9C1EDCB14A63C46003525A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C1EDDC14A63C46003525A1 /* InfoPlist.strings in Resources */,
+				B9C1EDE514A63C46003525A1 /* MainStoryboard.storyboard in Resources */,
+				B9C1EDFA14A653B2003525A1 /* iOSTerminal.png in Resources */,
+				B9C1EE0014A75405003525A1 /* barra.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9C1EDC914A63C46003525A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C1EDDE14A63C46003525A1 /* main.m in Sources */,
+				B9C1EDE214A63C46003525A1 /* SFSAppDelegate.m in Sources */,
+				B9C1EDE814A63C46003525A1 /* SFSViewController.m in Sources */,
+				B9C1EE0714A75E0D003525A1 /* SFSCommand.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9C1EDDA14A63C46003525A1 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9C1EDDB14A63C46003525A1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B9C1EDE314A63C46003525A1 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9C1EDE414A63C46003525A1 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9C1EDE914A63C46003525A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B9C1EDEA14A63C46003525A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9C1EDEC14A63C46003525A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSTerminal/iOSTerminal-Prefix.pch";
+				INFOPLIST_FILE = "iOSTerminal/iOSTerminal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B9C1EDED14A63C46003525A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOSTerminal/iOSTerminal-Prefix.pch";
+				INFOPLIST_FILE = "iOSTerminal/iOSTerminal-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9C1EDC714A63C46003525A1 /* Build configuration list for PBXProject "iOSTerminal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C1EDE914A63C46003525A1 /* Debug */,
+				B9C1EDEA14A63C46003525A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9C1EDEB14A63C46003525A1 /* Build configuration list for PBXNativeTarget "iOSTerminal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9C1EDEC14A63C46003525A1 /* Debug */,
+				B9C1EDED14A63C46003525A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9C1EDC414A63C46003525A1 /* Project object */;
+}

@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B973D78E150BF65700829D1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B973D78D150BF65700829D1A /* UIKit.framework */; };
+		B973D790150BF65700829D1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B973D78F150BF65700829D1A /* Foundation.framework */; };
+		B973D792150BF65700829D1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B973D791150BF65700829D1A /* CoreGraphics.framework */; };
+		B973D794150BF65700829D1A /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B973D793150BF65700829D1A /* GLKit.framework */; };
+		B973D796150BF65700829D1A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B973D795150BF65700829D1A /* OpenGLES.framework */; };
+		B973D79C150BF65700829D1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B973D79A150BF65700829D1A /* InfoPlist.strings */; };
+		B973D79E150BF65700829D1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B973D79D150BF65700829D1A /* main.m */; };
+		B973D7A2150BF65700829D1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B973D7A1150BF65700829D1A /* AppDelegate.m */; };
+		B973D7A5150BF65700829D1A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B973D7A3150BF65700829D1A /* MainStoryboard.storyboard */; };
+		B973D7A7150BF65700829D1A /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B973D7A6150BF65700829D1A /* Shader.fsh */; };
+		B973D7A9150BF65700829D1A /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B973D7A8150BF65700829D1A /* Shader.vsh */; };
+		B973D7AC150BF65700829D1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B973D7AB150BF65700829D1A /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B973D789150BF65700829D1A /* iCrazyBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCrazyBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B973D78D150BF65700829D1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B973D78F150BF65700829D1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B973D791150BF65700829D1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B973D793150BF65700829D1A /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		B973D795150BF65700829D1A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		B973D799150BF65700829D1A /* iCrazyBall-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iCrazyBall-Info.plist"; sourceTree = "<group>"; };
+		B973D79B150BF65700829D1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B973D79D150BF65700829D1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B973D79F150BF65700829D1A /* iCrazyBall-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iCrazyBall-Prefix.pch"; sourceTree = "<group>"; };
+		B973D7A0150BF65700829D1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B973D7A1150BF65700829D1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B973D7A4150BF65700829D1A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B973D7A6150BF65700829D1A /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		B973D7A8150BF65700829D1A /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		B973D7AA150BF65700829D1A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B973D7AB150BF65700829D1A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B973D786150BF65700829D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B973D78E150BF65700829D1A /* UIKit.framework in Frameworks */,
+				B973D790150BF65700829D1A /* Foundation.framework in Frameworks */,
+				B973D792150BF65700829D1A /* CoreGraphics.framework in Frameworks */,
+				B973D794150BF65700829D1A /* GLKit.framework in Frameworks */,
+				B973D796150BF65700829D1A /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B973D77E150BF65700829D1A = {
+			isa = PBXGroup;
+			children = (
+				B973D797150BF65700829D1A /* iCrazyBall */,
+				B973D78C150BF65700829D1A /* Frameworks */,
+				B973D78A150BF65700829D1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B973D78A150BF65700829D1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B973D789150BF65700829D1A /* iCrazyBall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B973D78C150BF65700829D1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B973D78D150BF65700829D1A /* UIKit.framework */,
+				B973D78F150BF65700829D1A /* Foundation.framework */,
+				B973D791150BF65700829D1A /* CoreGraphics.framework */,
+				B973D793150BF65700829D1A /* GLKit.framework */,
+				B973D795150BF65700829D1A /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B973D797150BF65700829D1A /* iCrazyBall */ = {
+			isa = PBXGroup;
+			children = (
+				B973D7A0150BF65700829D1A /* AppDelegate.h */,
+				B973D7A1150BF65700829D1A /* AppDelegate.m */,
+				B973D7A3150BF65700829D1A /* MainStoryboard.storyboard */,
+				B973D7A6150BF65700829D1A /* Shader.fsh */,
+				B973D7A8150BF65700829D1A /* Shader.vsh */,
+				B973D7AA150BF65700829D1A /* ViewController.h */,
+				B973D7AB150BF65700829D1A /* ViewController.m */,
+				B973D798150BF65700829D1A /* Supporting Files */,
+			);
+			path = iCrazyBall;
+			sourceTree = "<group>";
+		};
+		B973D798150BF65700829D1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B973D799150BF65700829D1A /* iCrazyBall-Info.plist */,
+				B973D79A150BF65700829D1A /* InfoPlist.strings */,
+				B973D79D150BF65700829D1A /* main.m */,
+				B973D79F150BF65700829D1A /* iCrazyBall-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B973D788150BF65700829D1A /* iCrazyBall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B973D7AF150BF65700829D1A /* Build configuration list for PBXNativeTarget "iCrazyBall" */;
+			buildPhases = (
+				B973D785150BF65700829D1A /* Sources */,
+				B973D786150BF65700829D1A /* Frameworks */,
+				B973D787150BF65700829D1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iCrazyBall;
+			productName = iCrazyBall;
+			productReference = B973D789150BF65700829D1A /* iCrazyBall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B973D780150BF65700829D1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B973D783150BF65700829D1A /* Build configuration list for PBXProject "iCrazyBall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B973D77E150BF65700829D1A;
+			productRefGroup = B973D78A150BF65700829D1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B973D788150BF65700829D1A /* iCrazyBall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B973D787150BF65700829D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B973D79C150BF65700829D1A /* InfoPlist.strings in Resources */,
+				B973D7A5150BF65700829D1A /* MainStoryboard.storyboard in Resources */,
+				B973D7A7150BF65700829D1A /* Shader.fsh in Resources */,
+				B973D7A9150BF65700829D1A /* Shader.vsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B973D785150BF65700829D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B973D79E150BF65700829D1A /* main.m in Sources */,
+				B973D7A2150BF65700829D1A /* AppDelegate.m in Sources */,
+				B973D7AC150BF65700829D1A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B973D79A150BF65700829D1A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B973D79B150BF65700829D1A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B973D7A3150BF65700829D1A /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B973D7A4150BF65700829D1A /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B973D7AD150BF65700829D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B973D7AE150BF65700829D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B973D7B0150BF65700829D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCrazyBall/iCrazyBall-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "iCrazyBall/iCrazyBall-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B973D7B1150BF65700829D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iCrazyBall/iCrazyBall-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "iCrazyBall/iCrazyBall-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B973D783150BF65700829D1A /* Build configuration list for PBXProject "iCrazyBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B973D7AD150BF65700829D1A /* Debug */,
+				B973D7AE150BF65700829D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B973D7AF150BF65700829D1A /* Build configuration list for PBXNativeTarget "iCrazyBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B973D7B0150BF65700829D1A /* Debug */,
+				B973D7B1150BF65700829D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B973D780150BF65700829D1A /* Project object */;
+}

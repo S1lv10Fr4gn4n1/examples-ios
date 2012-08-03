@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D417ABA11444EA4E0068FCD5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D417ABA01444EA4E0068FCD5 /* Foundation.framework */; };
+		D417ABA41444EA4E0068FCD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D417ABA31444EA4E0068FCD5 /* main.m */; };
+		D417ABAF1444EAC00068FCD5 /* ObjectGraph.m in Sources */ = {isa = PBXBuildFile; fileRef = D417ABAE1444EAC00068FCD5 /* ObjectGraph.m */; };
+		D417ABB21444EC2D0068FCD5 /* BBox.m in Sources */ = {isa = PBXBuildFile; fileRef = D417ABB11444EC2D0068FCD5 /* BBox.m */; };
+		D417ABB51444EC9B0068FCD5 /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = D417ABB41444EC9B0068FCD5 /* Color.m */; };
+		D417ABB81444ECDE0068FCD5 /* Pointer.m in Sources */ = {isa = PBXBuildFile; fileRef = D417ABB71444ECDE0068FCD5 /* Pointer.m */; };
+		D433E835144B9C7200F7BB48 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D433E834144B9C7200F7BB48 /* OpenGL.framework */; };
+		D433E838144B9C7800F7BB48 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D433E837144B9C7800F7BB48 /* GLUT.framework */; };
+		D433E83B144B9CB400F7BB48 /* Transform.m in Sources */ = {isa = PBXBuildFile; fileRef = D433E83A144B9CB400F7BB48 /* Transform.m */; };
+		D4746E1F144D0E2A005BFEC1 /* PolygonClose.m in Sources */ = {isa = PBXBuildFile; fileRef = D4746E1E144D0E2A005BFEC1 /* PolygonClose.m */; };
+		D4746E22144D0F72005BFEC1 /* PolygonOpen.m in Sources */ = {isa = PBXBuildFile; fileRef = D4746E21144D0F72005BFEC1 /* PolygonOpen.m */; };
+		D4746E25144D101B005BFEC1 /* Spline.m in Sources */ = {isa = PBXBuildFile; fileRef = D4746E24144D101B005BFEC1 /* Spline.m */; };
+		D4746E28144D15CD005BFEC1 /* World.m in Sources */ = {isa = PBXBuildFile; fileRef = D4746E27144D15CD005BFEC1 /* World.m */; };
+		D4746E2E144D19CB005BFEC1 /* Circle.m in Sources */ = {isa = PBXBuildFile; fileRef = D4746E2D144D19CB005BFEC1 /* Circle.m */; };
+		D4746E34144D1C44005BFEC1 /* Controller.m in Sources */ = {isa = PBXBuildFile; fileRef = D4746E33144D1C44005BFEC1 /* Controller.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D417AB9A1444EA4E0068FCD5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D417AB9C1444EA4E0068FCD5 /* PolygonEditorObjC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PolygonEditorObjC; sourceTree = BUILT_PRODUCTS_DIR; };
+		D417ABA01444EA4E0068FCD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D417ABA31444EA4E0068FCD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D417ABA61444EA4E0068FCD5 /* PolygonEditorObjC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PolygonEditorObjC-Prefix.pch"; sourceTree = "<group>"; };
+		D417ABA71444EA4E0068FCD5 /* PolygonEditorObjC.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = PolygonEditorObjC.1; sourceTree = "<group>"; };
+		D417ABAD1444EAC00068FCD5 /* ObjectGraph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectGraph.h; sourceTree = "<group>"; };
+		D417ABAE1444EAC00068FCD5 /* ObjectGraph.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectGraph.m; sourceTree = "<group>"; };
+		D417ABB01444EC2D0068FCD5 /* BBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBox.h; sourceTree = "<group>"; };
+		D417ABB11444EC2D0068FCD5 /* BBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBox.m; sourceTree = "<group>"; };
+		D417ABB31444EC9B0068FCD5 /* Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
+		D417ABB41444EC9B0068FCD5 /* Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
+		D417ABB61444ECDE0068FCD5 /* Pointer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pointer.h; sourceTree = "<group>"; };
+		D417ABB71444ECDE0068FCD5 /* Pointer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pointer.m; sourceTree = "<group>"; };
+		D433E834144B9C7200F7BB48 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		D433E837144B9C7800F7BB48 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		D433E839144B9CB400F7BB48 /* Transform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transform.h; sourceTree = "<group>"; };
+		D433E83A144B9CB400F7BB48 /* Transform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transform.m; sourceTree = "<group>"; };
+		D433E83C144BA1E200F7BB48 /* TypeTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TypeTransform.h; path = ../../../others/PolygonEditor/PolygonEditor/TypeTransform.h; sourceTree = "<group>"; };
+		D4746E1D144D0E2A005BFEC1 /* PolygonClose.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolygonClose.h; sourceTree = "<group>"; };
+		D4746E1E144D0E2A005BFEC1 /* PolygonClose.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolygonClose.m; sourceTree = "<group>"; };
+		D4746E20144D0F72005BFEC1 /* PolygonOpen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolygonOpen.h; sourceTree = "<group>"; };
+		D4746E21144D0F72005BFEC1 /* PolygonOpen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolygonOpen.m; sourceTree = "<group>"; };
+		D4746E23144D101B005BFEC1 /* Spline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spline.h; sourceTree = "<group>"; };
+		D4746E24144D101B005BFEC1 /* Spline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spline.m; sourceTree = "<group>"; };
+		D4746E26144D15CC005BFEC1 /* World.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = World.h; sourceTree = "<group>"; };
+		D4746E27144D15CD005BFEC1 /* World.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = World.m; sourceTree = "<group>"; };
+		D4746E2C144D19CA005BFEC1 /* Circle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Circle.h; sourceTree = "<group>"; };
+		D4746E2D144D19CB005BFEC1 /* Circle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Circle.m; sourceTree = "<group>"; };
+		D4746E32144D1C44005BFEC1 /* Controller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Controller.h; sourceTree = "<group>"; };
+		D4746E33144D1C44005BFEC1 /* Controller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Controller.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D417AB991444EA4E0068FCD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D433E838144B9C7800F7BB48 /* GLUT.framework in Frameworks */,
+				D433E835144B9C7200F7BB48 /* OpenGL.framework in Frameworks */,
+				D417ABA11444EA4E0068FCD5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D417AB911444EA4E0068FCD5 = {
+			isa = PBXGroup;
+			children = (
+				D433E837144B9C7800F7BB48 /* GLUT.framework */,
+				D433E834144B9C7200F7BB48 /* OpenGL.framework */,
+				D417ABA21444EA4E0068FCD5 /* PolygonEditorObjC */,
+				D417AB9F1444EA4E0068FCD5 /* Frameworks */,
+				D417AB9D1444EA4E0068FCD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D417AB9D1444EA4E0068FCD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D417AB9C1444EA4E0068FCD5 /* PolygonEditorObjC */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D417AB9F1444EA4E0068FCD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D417ABA01444EA4E0068FCD5 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D417ABA21444EA4E0068FCD5 /* PolygonEditorObjC */ = {
+			isa = PBXGroup;
+			children = (
+				D4746E32144D1C44005BFEC1 /* Controller.h */,
+				D4746E33144D1C44005BFEC1 /* Controller.m */,
+				D4746E2C144D19CA005BFEC1 /* Circle.h */,
+				D4746E2D144D19CB005BFEC1 /* Circle.m */,
+				D4746E1D144D0E2A005BFEC1 /* PolygonClose.h */,
+				D4746E1E144D0E2A005BFEC1 /* PolygonClose.m */,
+				D4746E20144D0F72005BFEC1 /* PolygonOpen.h */,
+				D4746E21144D0F72005BFEC1 /* PolygonOpen.m */,
+				D4746E23144D101B005BFEC1 /* Spline.h */,
+				D4746E24144D101B005BFEC1 /* Spline.m */,
+				D4746E26144D15CC005BFEC1 /* World.h */,
+				D4746E27144D15CD005BFEC1 /* World.m */,
+				D417ABA31444EA4E0068FCD5 /* main.m */,
+				D417ABAD1444EAC00068FCD5 /* ObjectGraph.h */,
+				D417ABAE1444EAC00068FCD5 /* ObjectGraph.m */,
+				D417ABB31444EC9B0068FCD5 /* Color.h */,
+				D417ABB41444EC9B0068FCD5 /* Color.m */,
+				D417ABB01444EC2D0068FCD5 /* BBox.h */,
+				D417ABB11444EC2D0068FCD5 /* BBox.m */,
+				D417ABB61444ECDE0068FCD5 /* Pointer.h */,
+				D417ABB71444ECDE0068FCD5 /* Pointer.m */,
+				D433E839144B9CB400F7BB48 /* Transform.h */,
+				D433E83A144B9CB400F7BB48 /* Transform.m */,
+				D433E83C144BA1E200F7BB48 /* TypeTransform.h */,
+				D417ABA71444EA4E0068FCD5 /* PolygonEditorObjC.1 */,
+				D417ABA51444EA4E0068FCD5 /* Supporting Files */,
+			);
+			path = PolygonEditorObjC;
+			sourceTree = "<group>";
+		};
+		D417ABA51444EA4E0068FCD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D417ABA61444EA4E0068FCD5 /* PolygonEditorObjC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D417AB9B1444EA4E0068FCD5 /* PolygonEditorObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D417ABAA1444EA4E0068FCD5 /* Build configuration list for PBXNativeTarget "PolygonEditorObjC" */;
+			buildPhases = (
+				D417AB981444EA4E0068FCD5 /* Sources */,
+				D417AB991444EA4E0068FCD5 /* Frameworks */,
+				D417AB9A1444EA4E0068FCD5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PolygonEditorObjC;
+			productName = PolygonEditorObjC;
+			productReference = D417AB9C1444EA4E0068FCD5 /* PolygonEditorObjC */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D417AB931444EA4E0068FCD5 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = D417AB961444EA4E0068FCD5 /* Build configuration list for PBXProject "PolygonEditorObjC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D417AB911444EA4E0068FCD5;
+			productRefGroup = D417AB9D1444EA4E0068FCD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D417AB9B1444EA4E0068FCD5 /* PolygonEditorObjC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D417AB981444EA4E0068FCD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D417ABA41444EA4E0068FCD5 /* main.m in Sources */,
+				D417ABAF1444EAC00068FCD5 /* ObjectGraph.m in Sources */,
+				D417ABB21444EC2D0068FCD5 /* BBox.m in Sources */,
+				D417ABB51444EC9B0068FCD5 /* Color.m in Sources */,
+				D417ABB81444ECDE0068FCD5 /* Pointer.m in Sources */,
+				D433E83B144B9CB400F7BB48 /* Transform.m in Sources */,
+				D4746E1F144D0E2A005BFEC1 /* PolygonClose.m in Sources */,
+				D4746E22144D0F72005BFEC1 /* PolygonOpen.m in Sources */,
+				D4746E25144D101B005BFEC1 /* Spline.m in Sources */,
+				D4746E28144D15CD005BFEC1 /* World.m in Sources */,
+				D4746E2E144D19CB005BFEC1 /* Circle.m in Sources */,
+				D4746E34144D1C44005BFEC1 /* Controller.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D417ABA81444EA4E0068FCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D417ABA91444EA4E0068FCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D417ABAB1444EA4E0068FCD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PolygonEditorObjC/PolygonEditorObjC-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D417ABAC1444EA4E0068FCD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PolygonEditorObjC/PolygonEditorObjC-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D417AB961444EA4E0068FCD5 /* Build configuration list for PBXProject "PolygonEditorObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D417ABA81444EA4E0068FCD5 /* Debug */,
+				D417ABA91444EA4E0068FCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D417ABAA1444EA4E0068FCD5 /* Build configuration list for PBXNativeTarget "PolygonEditorObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D417ABAB1444EA4E0068FCD5 /* Debug */,
+				D417ABAC1444EA4E0068FCD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D417AB931444EA4E0068FCD5 /* Project object */;
+}

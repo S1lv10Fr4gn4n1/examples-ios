@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="mIi-Gj-a72">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1179"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EIT-aM-loX">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o0i-I9-Npr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="8EO-hg-ciT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R4B-53-4t7">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="PaB-Qe-agB">
+                                <rect key="frame" x="244" y="310" width="280" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="New Order">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="GDA-Zx-J7I" kind="push" id="DlD-6b-WjQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="cHy-r6-X75">
+                                <rect key="frame" x="244" y="556" width="280" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="New Product">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="sEf-vj-cw7" kind="push" id="Rv5-cJ-zSJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="kpZ-Vj-bCe">
+                                <rect key="frame" x="244" y="675" width="280" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Select Product">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="3L2-OP-fHk" kind="push" id="Ujs-yN-3wN"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="l9w-2n-STn">
+                                <rect key="frame" x="244" y="435" width="280" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Select Order">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="hlH-ZX-yyX" kind="push" id="qL7-rQ-W6l"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" prompt="iOrder" id="rtp-Z4-TvH"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="1072" y="-263"/>
+        </scene>
+        <!--Select Order View Controller - Select Order-->
+        <scene sceneID="1S3-ty-aOM">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BIW-dP-Sv7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="hlH-ZX-yyX" customClass="SelectOrderViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="WM3-cf-oA6">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="hlH-ZX-yyX" id="gde-gh-fGR"/>
+                            <outlet property="delegate" destination="hlH-ZX-yyX" id="0VH-mJ-FkM"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Select Order" prompt="iOrder" id="VH2-wy-qyQ"/>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="2108" y="-248"/>
+        </scene>
+        <!--Maintain Product View Controller - Product-->
+        <scene sceneID="87f-Vx-bEf">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gCW-YQ-RW0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="sEf-vj-cw7" customClass="MaintainProductViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="egT-2K-QNo">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Product" prompt="iOrder" id="jI5-w6-oG8"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2108" y="917"/>
+        </scene>
+        <!--Maintain Order View Controller - Order-->
+        <scene sceneID="5T2-of-cVH">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3MH-eK-tWq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="GDA-Zx-J7I" customClass="MaintainOrderViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DMF-zE-Uv3">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Order" prompt="iOrder" id="FKB-9a-LbP"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="2108" y="-1474"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="8o3-qe-3Kb">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YOX-rn-sAV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="mIi-Gj-a72" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="lDR-5W-q8g">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="8EO-hg-ciT" kind="relationship" relationship="rootViewController" id="QN4-Qq-bDd"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="98" y="-263"/>
+        </scene>
+        <!--Select Product View Controller - Select Product-->
+        <scene sceneID="oli-1k-FuJ">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="baB-Bc-ZTQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="3L2-OP-fHk" customClass="SelectProductViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="38v-9F-cTh">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="3L2-OP-fHk" id="E12-N6-jdJ"/>
+                            <outlet property="delegate" destination="3L2-OP-fHk" id="5Os-TT-ZBw"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Select Product" prompt="iOrder" id="Mum-1D-ciJ"/>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="2115" y="2093"/>
+        </scene>
+    </scenes>
+    <classes>
+        <class className="MaintainOrderViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MaintainOrderViewController.h"/>
+        </class>
+        <class className="MaintainProductViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/MaintainProductViewController.h"/>
+        </class>
+        <class className="SelectOrderViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SelectOrderViewController.h"/>
+        </class>
+        <class className="SelectProductViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SelectProductViewController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

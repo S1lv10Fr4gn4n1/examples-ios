@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9B3ABF214DDB3A60083B611 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B3ABF114DDB3A60083B611 /* UIKit.framework */; };
+		B9B3ABF414DDB3A60083B611 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B3ABF314DDB3A60083B611 /* Foundation.framework */; };
+		B9B3ABF614DDB3A60083B611 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9B3ABF514DDB3A60083B611 /* CoreGraphics.framework */; };
+		B9B3ABFC14DDB3A60083B611 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9B3ABFA14DDB3A60083B611 /* InfoPlist.strings */; };
+		B9B3ABFE14DDB3A60083B611 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B3ABFD14DDB3A60083B611 /* main.m */; };
+		B9B3AC0214DDB3A60083B611 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B3AC0114DDB3A60083B611 /* AppDelegate.m */; };
+		B9B3AC0514DDB3A60083B611 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B3AC0314DDB3A60083B611 /* MainStoryboard.storyboard */; };
+		B9B3AC0814DDB3A60083B611 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9B3AC0714DDB3A60083B611 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B9B3ABED14DDB3A60083B611 /* ExemploCicloVida.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExemploCicloVida.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B3ABF114DDB3A60083B611 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9B3ABF314DDB3A60083B611 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9B3ABF514DDB3A60083B611 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B9B3ABF914DDB3A60083B611 /* ExemploCicloVida-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExemploCicloVida-Info.plist"; sourceTree = "<group>"; };
+		B9B3ABFB14DDB3A60083B611 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9B3ABFD14DDB3A60083B611 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9B3ABFF14DDB3A60083B611 /* ExemploCicloVida-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExemploCicloVida-Prefix.pch"; sourceTree = "<group>"; };
+		B9B3AC0014DDB3A60083B611 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9B3AC0114DDB3A60083B611 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9B3AC0414DDB3A60083B611 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B9B3AC0614DDB3A60083B611 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B9B3AC0714DDB3A60083B611 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9B3ABEA14DDB3A60083B611 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B3ABF214DDB3A60083B611 /* UIKit.framework in Frameworks */,
+				B9B3ABF414DDB3A60083B611 /* Foundation.framework in Frameworks */,
+				B9B3ABF614DDB3A60083B611 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9B3ABE214DDB3A60083B611 = {
+			isa = PBXGroup;
+			children = (
+				B9B3ABF714DDB3A60083B611 /* ExemploCicloVida */,
+				B9B3ABF014DDB3A60083B611 /* Frameworks */,
+				B9B3ABEE14DDB3A60083B611 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9B3ABEE14DDB3A60083B611 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9B3ABED14DDB3A60083B611 /* ExemploCicloVida.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9B3ABF014DDB3A60083B611 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9B3ABF114DDB3A60083B611 /* UIKit.framework */,
+				B9B3ABF314DDB3A60083B611 /* Foundation.framework */,
+				B9B3ABF514DDB3A60083B611 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9B3ABF714DDB3A60083B611 /* ExemploCicloVida */ = {
+			isa = PBXGroup;
+			children = (
+				B9B3AC0014DDB3A60083B611 /* AppDelegate.h */,
+				B9B3AC0114DDB3A60083B611 /* AppDelegate.m */,
+				B9B3AC0314DDB3A60083B611 /* MainStoryboard.storyboard */,
+				B9B3AC0614DDB3A60083B611 /* ViewController.h */,
+				B9B3AC0714DDB3A60083B611 /* ViewController.m */,
+				B9B3ABF814DDB3A60083B611 /* Supporting Files */,
+			);
+			path = ExemploCicloVida;
+			sourceTree = "<group>";
+		};
+		B9B3ABF814DDB3A60083B611 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9B3ABF914DDB3A60083B611 /* ExemploCicloVida-Info.plist */,
+				B9B3ABFA14DDB3A60083B611 /* InfoPlist.strings */,
+				B9B3ABFD14DDB3A60083B611 /* main.m */,
+				B9B3ABFF14DDB3A60083B611 /* ExemploCicloVida-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9B3ABEC14DDB3A60083B611 /* ExemploCicloVida */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B3AC0B14DDB3A60083B611 /* Build configuration list for PBXNativeTarget "ExemploCicloVida" */;
+			buildPhases = (
+				B9B3ABE914DDB3A60083B611 /* Sources */,
+				B9B3ABEA14DDB3A60083B611 /* Frameworks */,
+				B9B3ABEB14DDB3A60083B611 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExemploCicloVida;
+			productName = ExemploCicloVida;
+			productReference = B9B3ABED14DDB3A60083B611 /* ExemploCicloVida.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9B3ABE414DDB3A60083B611 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B9B3ABE714DDB3A60083B611 /* Build configuration list for PBXProject "ExemploCicloVida" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B9B3ABE214DDB3A60083B611;
+			productRefGroup = B9B3ABEE14DDB3A60083B611 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9B3ABEC14DDB3A60083B611 /* ExemploCicloVida */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9B3ABEB14DDB3A60083B611 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B3ABFC14DDB3A60083B611 /* InfoPlist.strings in Resources */,
+				B9B3AC0514DDB3A60083B611 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9B3ABE914DDB3A60083B611 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B3ABFE14DDB3A60083B611 /* main.m in Sources */,
+				B9B3AC0214DDB3A60083B611 /* AppDelegate.m in Sources */,
+				B9B3AC0814DDB3A60083B611 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9B3ABFA14DDB3A60083B611 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9B3ABFB14DDB3A60083B611 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B9B3AC0314DDB3A60083B611 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9B3AC0414DDB3A60083B611 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9B3AC0914DDB3A60083B611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B9B3AC0A14DDB3A60083B611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9B3AC0C14DDB3A60083B611 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExemploCicloVida/ExemploCicloVida-Prefix.pch";
+				INFOPLIST_FILE = "ExemploCicloVida/ExemploCicloVida-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B9B3AC0D14DDB3A60083B611 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExemploCicloVida/ExemploCicloVida-Prefix.pch";
+				INFOPLIST_FILE = "ExemploCicloVida/ExemploCicloVida-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9B3ABE714DDB3A60083B611 /* Build configuration list for PBXProject "ExemploCicloVida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B3AC0914DDB3A60083B611 /* Debug */,
+				B9B3AC0A14DDB3A60083B611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9B3AC0B14DDB3A60083B611 /* Build configuration list for PBXNativeTarget "ExemploCicloVida" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B3AC0C14DDB3A60083B611 /* Debug */,
+				B9B3AC0D14DDB3A60083B611 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9B3ABE414DDB3A60083B611 /* Project object */;
+}

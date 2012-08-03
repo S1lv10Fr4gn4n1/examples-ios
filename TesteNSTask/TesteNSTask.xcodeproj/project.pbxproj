@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B958127714A3C28000E3FD09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B958127614A3C28000E3FD09 /* Foundation.framework */; };
+		B958127A14A3C28000E3FD09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B958127914A3C28000E3FD09 /* main.m */; };
+		B958127E14A3C28000E3FD09 /* TesteNSTask.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B958127D14A3C28000E3FD09 /* TesteNSTask.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B958127014A3C28000E3FD09 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B958127E14A3C28000E3FD09 /* TesteNSTask.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B958127214A3C28000E3FD09 /* TesteNSTask */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TesteNSTask; sourceTree = BUILT_PRODUCTS_DIR; };
+		B958127614A3C28000E3FD09 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B958127914A3C28000E3FD09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B958127C14A3C28000E3FD09 /* TesteNSTask-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TesteNSTask-Prefix.pch"; sourceTree = "<group>"; };
+		B958127D14A3C28000E3FD09 /* TesteNSTask.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = TesteNSTask.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B958126F14A3C28000E3FD09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B958127714A3C28000E3FD09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B958126714A3C28000E3FD09 = {
+			isa = PBXGroup;
+			children = (
+				B958127814A3C28000E3FD09 /* TesteNSTask */,
+				B958127514A3C28000E3FD09 /* Frameworks */,
+				B958127314A3C28000E3FD09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B958127314A3C28000E3FD09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B958127214A3C28000E3FD09 /* TesteNSTask */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B958127514A3C28000E3FD09 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B958127614A3C28000E3FD09 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B958127814A3C28000E3FD09 /* TesteNSTask */ = {
+			isa = PBXGroup;
+			children = (
+				B958127914A3C28000E3FD09 /* main.m */,
+				B958127D14A3C28000E3FD09 /* TesteNSTask.1 */,
+				B958127B14A3C28000E3FD09 /* Supporting Files */,
+			);
+			path = TesteNSTask;
+			sourceTree = "<group>";
+		};
+		B958127B14A3C28000E3FD09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B958127C14A3C28000E3FD09 /* TesteNSTask-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B958127114A3C28000E3FD09 /* TesteNSTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B958128114A3C28000E3FD09 /* Build configuration list for PBXNativeTarget "TesteNSTask" */;
+			buildPhases = (
+				B958126E14A3C28000E3FD09 /* Sources */,
+				B958126F14A3C28000E3FD09 /* Frameworks */,
+				B958127014A3C28000E3FD09 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TesteNSTask;
+			productName = TesteNSTask;
+			productReference = B958127214A3C28000E3FD09 /* TesteNSTask */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B958126914A3C28000E3FD09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = B958126C14A3C28000E3FD09 /* Build configuration list for PBXProject "TesteNSTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B958126714A3C28000E3FD09;
+			productRefGroup = B958127314A3C28000E3FD09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B958127114A3C28000E3FD09 /* TesteNSTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B958126E14A3C28000E3FD09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B958127A14A3C28000E3FD09 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B958127F14A3C28000E3FD09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B958128014A3C28000E3FD09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B958128214A3C28000E3FD09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TesteNSTask/TesteNSTask-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B958128314A3C28000E3FD09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TesteNSTask/TesteNSTask-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B958126C14A3C28000E3FD09 /* Build configuration list for PBXProject "TesteNSTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B958127F14A3C28000E3FD09 /* Debug */,
+				B958128014A3C28000E3FD09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B958128114A3C28000E3FD09 /* Build configuration list for PBXNativeTarget "TesteNSTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B958128214A3C28000E3FD09 /* Debug */,
+				B958128314A3C28000E3FD09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B958126914A3C28000E3FD09 /* Project object */;
+}

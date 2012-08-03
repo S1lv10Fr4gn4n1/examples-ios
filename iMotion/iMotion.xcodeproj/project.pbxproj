@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9633A53150D783400417416 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9633A52150D783400417416 /* UIKit.framework */; };
+		B9633A55150D783400417416 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9633A54150D783400417416 /* Foundation.framework */; };
+		B9633A57150D783400417416 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9633A56150D783400417416 /* CoreGraphics.framework */; };
+		B9633A5D150D783400417416 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B9633A5B150D783400417416 /* InfoPlist.strings */; };
+		B9633A5F150D783400417416 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B9633A5E150D783400417416 /* main.m */; };
+		B9633A63150D783400417416 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B9633A62150D783400417416 /* AppDelegate.m */; };
+		B9633A66150D783400417416 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9633A64150D783400417416 /* MainStoryboard.storyboard */; };
+		B9633A69150D783400417416 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B9633A68150D783400417416 /* ViewController.m */; };
+		B9633A70150D785600417416 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9633A6F150D785600417416 /* CoreMotion.framework */; };
+		B9EB6AAE15698A440054DADB /* motion.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B9EB6AAD15698A440054DADB /* motion.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B9633A4E150D783400417416 /* iMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9633A52150D783400417416 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B9633A54150D783400417416 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B9633A56150D783400417416 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B9633A5A150D783400417416 /* iMotion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iMotion-Info.plist"; sourceTree = "<group>"; };
+		B9633A5C150D783400417416 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B9633A5E150D783400417416 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B9633A60150D783400417416 /* iMotion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iMotion-Prefix.pch"; sourceTree = "<group>"; };
+		B9633A61150D783400417416 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B9633A62150D783400417416 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B9633A65150D783400417416 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		B9633A67150D783400417416 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B9633A68150D783400417416 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B9633A6F150D785600417416 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		B9EB6AAD15698A440054DADB /* motion.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = motion.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9633A4B150D783400417416 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9633A70150D785600417416 /* CoreMotion.framework in Frameworks */,
+				B9633A53150D783400417416 /* UIKit.framework in Frameworks */,
+				B9633A55150D783400417416 /* Foundation.framework in Frameworks */,
+				B9633A57150D783400417416 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B9633A43150D783300417416 = {
+			isa = PBXGroup;
+			children = (
+				B9633A58150D783400417416 /* iMotion */,
+				B9633A51150D783400417416 /* Frameworks */,
+				B9633A4F150D783400417416 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B9633A4F150D783400417416 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9633A4E150D783400417416 /* iMotion.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9633A51150D783400417416 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9633A6F150D785600417416 /* CoreMotion.framework */,
+				B9633A52150D783400417416 /* UIKit.framework */,
+				B9633A54150D783400417416 /* Foundation.framework */,
+				B9633A56150D783400417416 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9633A58150D783400417416 /* iMotion */ = {
+			isa = PBXGroup;
+			children = (
+				B9633A61150D783400417416 /* AppDelegate.h */,
+				B9633A62150D783400417416 /* AppDelegate.m */,
+				B9633A64150D783400417416 /* MainStoryboard.storyboard */,
+				B9633A67150D783400417416 /* ViewController.h */,
+				B9633A68150D783400417416 /* ViewController.m */,
+				B9633A59150D783400417416 /* Supporting Files */,
+			);
+			path = iMotion;
+			sourceTree = "<group>";
+		};
+		B9633A59150D783400417416 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9EB6AAD15698A440054DADB /* motion.jpg */,
+				B9633A5A150D783400417416 /* iMotion-Info.plist */,
+				B9633A5B150D783400417416 /* InfoPlist.strings */,
+				B9633A5E150D783400417416 /* main.m */,
+				B9633A60150D783400417416 /* iMotion-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9633A4D150D783400417416 /* iMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9633A6C150D783400417416 /* Build configuration list for PBXNativeTarget "iMotion" */;
+			buildPhases = (
+				B9633A4A150D783400417416 /* Sources */,
+				B9633A4B150D783400417416 /* Frameworks */,
+				B9633A4C150D783400417416 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iMotion;
+			productName = iMotion;
+			productReference = B9633A4E150D783400417416 /* iMotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9633A45150D783300417416 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B9633A48150D783300417416 /* Build configuration list for PBXProject "iMotion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B9633A43150D783300417416;
+			productRefGroup = B9633A4F150D783400417416 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9633A4D150D783400417416 /* iMotion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9633A4C150D783400417416 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9633A5D150D783400417416 /* InfoPlist.strings in Resources */,
+				B9633A66150D783400417416 /* MainStoryboard.storyboard in Resources */,
+				B9EB6AAE15698A440054DADB /* motion.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9633A4A150D783400417416 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9633A5F150D783400417416 /* main.m in Sources */,
+				B9633A63150D783400417416 /* AppDelegate.m in Sources */,
+				B9633A69150D783400417416 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9633A5B150D783400417416 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9633A5C150D783400417416 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B9633A64150D783400417416 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9633A65150D783400417416 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9633A6A150D783400417416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B9633A6B150D783400417416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9633A6D150D783400417416 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMotion/iMotion-Prefix.pch";
+				INFOPLIST_FILE = "iMotion/iMotion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B9633A6E150D783400417416 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iMotion/iMotion-Prefix.pch";
+				INFOPLIST_FILE = "iMotion/iMotion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9633A48150D783300417416 /* Build configuration list for PBXProject "iMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9633A6A150D783400417416 /* Debug */,
+				B9633A6B150D783400417416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9633A6C150D783400417416 /* Build configuration list for PBXNativeTarget "iMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9633A6D150D783400417416 /* Debug */,
+				B9633A6E150D783400417416 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9633A45150D783300417416 /* Project object */;
+}

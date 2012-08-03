@@ -1,0 +1,105 @@
+//
+//  Circle.m
+//  PolygonEditorObjC
+//
+//  Created by Silvio Fragnani on 18/10/11.
+//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//
+
+#import "Circle.h"
+
+
+@implementation Circle
+
+- (id)init
+{
+    self = [super init];
+    if (self) {
+		///! inicializa com -1 para indicar q ainda nao foi criado o circulo ainda.
+		radius = -1;
+		indexHighlights = 1;
+    }
+    
+    return self;
+}
+
+- (void)dealloc
+{
+    [super dealloc];
+}
+
+
+- (void)draw
+{
+
+    [super draw];
+    
+	// caso ainda nao tenha gerado o raio, nao desenha o objeto
+	if (radius == -1) {
+		return;
+	}
+
+    int index = 2;
+    GLfloat vertexCircle[[points count] * 2];
+    for (int i = 0; i < ([points count] * 2); i = i + 2){
+        Pointer * point = [points objectAtIndex: index];
+        vertexCircle[i] = [point x];
+        vertexCircle[i + 1] = [point y];
+        index++;
+        if (index == [points count]) {
+            break;
+        }
+    }
+    glVertexAttribPointer(ATTRIB_VERTEX, 2, GL_FLOAT, 0, 0, vertexCircle);
+    glEnableVertexAttribArray(ATTRIB_VERTEX);
+    glDrawArrays(GL_LINE_LOOP, 0, 36);
+    
+}
+
+- (Boolean) addPoint: (Pointer *) value 
+{
+	[super addPoint:value];
+    
+    if ([points count] == 2) {
+        //calcula o raio
+        ///! pega o primeiro ponto, que idicara a origem do circulo
+        pointInit = [points objectAtIndex: 0];
+        Pointer * p2 = [points objectAtIndex: 1];
+        
+        float x = [p2 x] - [pointInit x];//[pointInit x] - [p2 x];
+        float y = [p2 y] - [pointInit y];//[pointInit y] - [p2 y];
+        ///! d²=(x0-x)²+(y0-y)²
+        float d = (x*x) + (y*y);
+        radius = pow(d, 0.5);
+        
+        float x1;
+        float y1;
+        
+        // gera pontos para criar o circulo, esses pontos sao guardados
+        // para posteriormente pode ser usados no algoritmo de scanline
+        int ang = 0;
+        for (int i=0; i<36; i++) {
+            x1 = (radius * cos(M_PI * ang / 180.0f));
+            y1 = (radius * sin(M_PI * ang / 180.0f));
+            
+            Pointer * p = [[Pointer alloc] init: x1 + [pointInit x]: y1 + [pointInit y]: 0.0f: 1.0f];
+            [p autorelease];
+            [points addObject: p];
+            ang += 10;
+        }
+        return false;
+    } else {
+        return true;
+    }
+    
+	
+}
+
+- (void)nextPointHighlights
+{
+	// somente o ponto q da o raio
+	indexHighlights = 1;	
+}
+
+
+@end

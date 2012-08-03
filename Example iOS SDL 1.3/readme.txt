@@ -1,0 +1,3 @@
+- these examples were taken from the SDL 1.3 downloaded from http://hg.libsdl.org/SDL sdl-1.3
+- libsdl2.a was compiled for the simulator, if needed in the "others-lib" contains libs compiled for ARM7 and the simulator;
+- the size of this screen examples of fixed for iphone, the variables defined in common.h SCREEN_WIDTH and SCREEN_HEIGHT define the screen size;

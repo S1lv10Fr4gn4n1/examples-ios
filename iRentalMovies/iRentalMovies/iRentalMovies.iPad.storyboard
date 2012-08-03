@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="1.1" toolsVersion="2182" systemVersion="11D50" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="CWl-di-iel">
+    <dependencies>
+        <deployment defaultVersion="1296" identifier="iOS"/>
+        <development defaultVersion="4200" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1179"/>
+    </dependencies>
+    <scenes>
+        <!--Init View Controller-->
+        <scene sceneID="wEU-1j-kgg">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1jZ-OQ-sYQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController id="RjZ-OV-DQ7" customClass="SFSInitViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BUV-ga-10s">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="scaleToFill" image="movies02.gif" id="mnP-qq-5gC">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="930"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nR1-3G-73V">
+                                <rect key="frame" x="151" y="582" width="540" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="46"/>
+                                <state key="normal" title="Customers">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="luB-vL-cbK" kind="push" id="wt7-ZJ-LWE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="jS8-pq-GLS">
+                                <rect key="frame" x="151" y="326" width="540" height="100"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="46"/>
+                                <state key="normal" title="Movies">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="JEf-pM-1T3" kind="push" id="RKh-Yy-tCR"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="iRental Movies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="IxV-fU-z7F">
+                                <rect key="frame" x="20" y="20" width="728" height="120"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="63"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" prompt="iRental Movies" id="Wpm-5i-id4"/>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-4453" y="-1245"/>
+        </scene>
+        <!--Table Customers View Controller - Select Customers-->
+        <scene sceneID="voW-aL-c03">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CzK-K1-Jex" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="luB-vL-cbK" customClass="SFSTableCustomersViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="nvo-SP-fM9">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="luB-vL-cbK" id="fNm-Qn-Tr5"/>
+                            <outlet property="delegate" destination="luB-vL-cbK" id="mt0-JZ-gcr"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Select Customers" prompt="iRental Movies" id="zzs-Qa-S2M">
+                        <barButtonItem key="backBarButtonItem" title="iRental Movies" id="eR1-56-yt3"/>
+                    </navigationItem>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="-3514" y="-164"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="jx0-si-bhK">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uwy-VT-Z9m" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <navigationController id="CWl-di-iel" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="ZTP-I0-xig">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="RjZ-OV-DQ7" kind="relationship" relationship="rootViewController" id="s8V-kn-jm9"/>
+                    </connections>
+                </navigationController>
+            </objects>
+            <point key="canvasLocation" x="-5427" y="-1245"/>
+        </scene>
+        <!--Table Movies View Controller - Select Movies-->
+        <scene sceneID="FkJ-XR-pyg">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MoP-is-Agq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tableViewController id="JEf-pM-1T3" customClass="SFSTableMoviesViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="Vnw-Bj-XLY">
+                        <rect key="frame" x="0.0" y="94" width="768" height="930"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <connections>
+                            <outlet property="dataSource" destination="JEf-pM-1T3" id="6Ag-m0-7KJ"/>
+                            <outlet property="delegate" destination="JEf-pM-1T3" id="evg-fc-b3z"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Select Movies" prompt="iRental Movies" id="jSd-dS-zQ0">
+                        <barButtonItem key="backBarButtonItem" title="iRental Movies" id="fga-D1-oc8"/>
+                    </navigationItem>
+                </tableViewController>
+            </objects>
+            <point key="canvasLocation" x="-3514" y="-2309"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="movies02.gif" width="819" height="1024"/>
+    </resources>
+    <classes>
+        <class className="SFSInitViewController" superclassName="UIViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SFSInitViewController.h"/>
+        </class>
+        <class className="SFSTableCustomersViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SFSTableCustomersViewController.h"/>
+        </class>
+        <class className="SFSTableMoviesViewController" superclassName="UITableViewController">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/SFSTableMoviesViewController.h"/>
+        </class>
+    </classes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="blackTranslucent"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>

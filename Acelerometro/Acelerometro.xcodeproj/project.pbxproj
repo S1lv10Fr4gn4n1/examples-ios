@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B973D7C2150BF73E00829D1A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B973D7C1150BF73E00829D1A /* UIKit.framework */; };
+		B973D7C4150BF73E00829D1A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B973D7C3150BF73E00829D1A /* Foundation.framework */; };
+		B973D7C6150BF73E00829D1A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B973D7C5150BF73E00829D1A /* CoreGraphics.framework */; };
+		B973D7CC150BF73E00829D1A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B973D7CA150BF73E00829D1A /* InfoPlist.strings */; };
+		B973D7CE150BF73E00829D1A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B973D7CD150BF73E00829D1A /* main.m */; };
+		B973D7D2150BF73E00829D1A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B973D7D1150BF73E00829D1A /* AppDelegate.m */; };
+		B973D7DA150CB74400829D1A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B973D7D9150CB74400829D1A /* ViewController.m */; };
+		B973D7DC150CB7E800829D1A /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B973D7DB150CB7E800829D1A /* Storyboard.storyboard */; };
+		B973D7E4150D237500829D1A /* smile.metal.png in Resources */ = {isa = PBXBuildFile; fileRef = B973D7E2150D237500829D1A /* smile.metal.png */; };
+		B973D7E5150D237500829D1A /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = B973D7E3150D237500829D1A /* smile.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B973D7BD150BF73E00829D1A /* Acelerometro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Acelerometro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B973D7C1150BF73E00829D1A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B973D7C3150BF73E00829D1A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B973D7C5150BF73E00829D1A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B973D7C9150BF73E00829D1A /* Acelerometro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Acelerometro-Info.plist"; sourceTree = "<group>"; };
+		B973D7CB150BF73E00829D1A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B973D7CD150BF73E00829D1A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B973D7CF150BF73E00829D1A /* Acelerometro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Acelerometro-Prefix.pch"; sourceTree = "<group>"; };
+		B973D7D0150BF73E00829D1A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B973D7D1150BF73E00829D1A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B973D7D8150CB74400829D1A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B973D7D9150CB74400829D1A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B973D7DB150CB7E800829D1A /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		B973D7E2150D237500829D1A /* smile.metal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.metal.png; sourceTree = "<group>"; };
+		B973D7E3150D237500829D1A /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B973D7BA150BF73E00829D1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B973D7C2150BF73E00829D1A /* UIKit.framework in Frameworks */,
+				B973D7C4150BF73E00829D1A /* Foundation.framework in Frameworks */,
+				B973D7C6150BF73E00829D1A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B973D7B2150BF73E00829D1A = {
+			isa = PBXGroup;
+			children = (
+				B973D7C7150BF73E00829D1A /* Acelerometro */,
+				B973D7C0150BF73E00829D1A /* Frameworks */,
+				B973D7BE150BF73E00829D1A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B973D7BE150BF73E00829D1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B973D7BD150BF73E00829D1A /* Acelerometro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B973D7C0150BF73E00829D1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B973D7C1150BF73E00829D1A /* UIKit.framework */,
+				B973D7C3150BF73E00829D1A /* Foundation.framework */,
+				B973D7C5150BF73E00829D1A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B973D7C7150BF73E00829D1A /* Acelerometro */ = {
+			isa = PBXGroup;
+			children = (
+				B973D7E2150D237500829D1A /* smile.metal.png */,
+				B973D7E3150D237500829D1A /* smile.png */,
+				B973D7D0150BF73E00829D1A /* AppDelegate.h */,
+				B973D7D1150BF73E00829D1A /* AppDelegate.m */,
+				B973D7D8150CB74400829D1A /* ViewController.h */,
+				B973D7D9150CB74400829D1A /* ViewController.m */,
+				B973D7DB150CB7E800829D1A /* Storyboard.storyboard */,
+				B973D7C8150BF73E00829D1A /* Supporting Files */,
+			);
+			path = Acelerometro;
+			sourceTree = "<group>";
+		};
+		B973D7C8150BF73E00829D1A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B973D7C9150BF73E00829D1A /* Acelerometro-Info.plist */,
+				B973D7CA150BF73E00829D1A /* InfoPlist.strings */,
+				B973D7CD150BF73E00829D1A /* main.m */,
+				B973D7CF150BF73E00829D1A /* Acelerometro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B973D7BC150BF73E00829D1A /* Acelerometro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B973D7D5150BF73E00829D1A /* Build configuration list for PBXNativeTarget "Acelerometro" */;
+			buildPhases = (
+				B973D7B9150BF73E00829D1A /* Sources */,
+				B973D7BA150BF73E00829D1A /* Frameworks */,
+				B973D7BB150BF73E00829D1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Acelerometro;
+			productName = Acelerometro;
+			productReference = B973D7BD150BF73E00829D1A /* Acelerometro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B973D7B4150BF73E00829D1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = B973D7B7150BF73E00829D1A /* Build configuration list for PBXProject "Acelerometro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B973D7B2150BF73E00829D1A;
+			productRefGroup = B973D7BE150BF73E00829D1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B973D7BC150BF73E00829D1A /* Acelerometro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B973D7BB150BF73E00829D1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B973D7CC150BF73E00829D1A /* InfoPlist.strings in Resources */,
+				B973D7DC150CB7E800829D1A /* Storyboard.storyboard in Resources */,
+				B973D7E4150D237500829D1A /* smile.metal.png in Resources */,
+				B973D7E5150D237500829D1A /* smile.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B973D7B9150BF73E00829D1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B973D7CE150BF73E00829D1A /* main.m in Sources */,
+				B973D7D2150BF73E00829D1A /* AppDelegate.m in Sources */,
+				B973D7DA150CB74400829D1A /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B973D7CA150BF73E00829D1A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B973D7CB150BF73E00829D1A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B973D7D3150BF73E00829D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B973D7D4150BF73E00829D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B973D7D6150BF73E00829D1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acelerometro/Acelerometro-Prefix.pch";
+				INFOPLIST_FILE = "Acelerometro/Acelerometro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B973D7D7150BF73E00829D1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Acelerometro/Acelerometro-Prefix.pch";
+				INFOPLIST_FILE = "Acelerometro/Acelerometro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B973D7B7150BF73E00829D1A /* Build configuration list for PBXProject "Acelerometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B973D7D3150BF73E00829D1A /* Debug */,
+				B973D7D4150BF73E00829D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B973D7D5150BF73E00829D1A /* Build configuration list for PBXNativeTarget "Acelerometro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B973D7D6150BF73E00829D1A /* Debug */,
+				B973D7D7150BF73E00829D1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B973D7B4150BF73E00829D1A /* Project object */;
+}

@@ -1,0 +1,251 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/137/trunk/deformacao/deformacao
+END
+RectangleBlueprint.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/114/trunk/deformacao/deformacao/RectangleBlueprint.h
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/120/trunk/deformacao/deformacao/main.m
+END
+World.m
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/137/trunk/deformacao/deformacao/World.m
+END
+deformacao-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/95/trunk/deformacao/deformacao/deformacao-Info.plist
+END
+RectangleBlueprint.m
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/114/trunk/deformacao/deformacao/RectangleBlueprint.m
+END
+deformacaoViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/137/trunk/deformacao/deformacao/deformacaoViewController.h
+END
+LatticePoint.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/132/trunk/deformacao/deformacao/LatticePoint.h
+END
+Matrix2x2.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/137/trunk/deformacao/deformacao/Matrix2x2.h
+END
+LatticePoint.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/132/trunk/deformacao/deformacao/LatticePoint.m
+END
+deformacaoViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/137/trunk/deformacao/deformacao/deformacaoViewController.m
+END
+Matrix2x2.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/137/trunk/deformacao/deformacao/Matrix2x2.m
+END
+LockForce.h
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/113/trunk/deformacao/deformacao/LockForce.h
+END
+NSMutableArray+QueueAdditions.h
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/132/trunk/deformacao/deformacao/NSMutableArray+QueueAdditions.h
+END
+LockForce.m
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/113/trunk/deformacao/deformacao/LockForce.m
+END
+NSMutableArray+QueueAdditions.m
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/132/trunk/deformacao/deformacao/NSMutableArray+QueueAdditions.m
+END
+deformacao-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/95/trunk/deformacao/deformacao/deformacao-Prefix.pch
+END
+EnvironmentForce.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/111/trunk/deformacao/deformacao/EnvironmentForce.h
+END
+Vector2.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/137/trunk/deformacao/deformacao/Vector2.h
+END
+ManagedList.h
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/133/trunk/deformacao/deformacao/ManagedList.h
+END
+EnvironmentForce.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/111/trunk/deformacao/deformacao/EnvironmentForce.m
+END
+Vector2.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/137/trunk/deformacao/deformacao/Vector2.m
+END
+deformacaoAppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/132/trunk/deformacao/deformacao/deformacaoAppDelegate.h
+END
+ManagedList.m
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/133/trunk/deformacao/deformacao/ManagedList.m
+END
+Body.h
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/137/trunk/deformacao/deformacao/Body.h
+END
+deformacaoAppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/132/trunk/deformacao/deformacao/deformacaoAppDelegate.m
+END
+Body.m
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/137/trunk/deformacao/deformacao/Body.m
+END
+Particle.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/133/trunk/deformacao/deformacao/Particle.h
+END
+EAGLView.h
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/132/trunk/deformacao/deformacao/EAGLView.h
+END
+NDC.h
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/137/trunk/deformacao/deformacao/NDC.h
+END
+GravityForce.h
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/137/trunk/deformacao/deformacao/GravityForce.h
+END
+EAGLView.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/132/trunk/deformacao/deformacao/EAGLView.m
+END
+Particle.m
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/137/trunk/deformacao/deformacao/Particle.m
+END
+NDC.m
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/137/trunk/deformacao/deformacao/NDC.m
+END
+GravityForce.m
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/137/trunk/deformacao/deformacao/GravityForce.m
+END
+SmoothingRegion.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/133/trunk/deformacao/deformacao/SmoothingRegion.h
+END
+ParticleAndDepth.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/129/trunk/deformacao/deformacao/ParticleAndDepth.h
+END
+Point2D.h
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/114/trunk/deformacao/deformacao/Point2D.h
+END
+ParticleAndDepth.m
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/129/trunk/deformacao/deformacao/ParticleAndDepth.m
+END
+SmoothingRegion.m
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/137/trunk/deformacao/deformacao/SmoothingRegion.m
+END
+Point2D.m
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/125/trunk/deformacao/deformacao/Point2D.m
+END
+World.h
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/135/trunk/deformacao/deformacao/World.h
+END
