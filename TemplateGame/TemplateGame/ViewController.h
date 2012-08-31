@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import <GLKit/GLKit.h>
+#import "SoundEngine.h"
+#import "texture2d.h"
 
 @interface ViewController : GLKViewController
 

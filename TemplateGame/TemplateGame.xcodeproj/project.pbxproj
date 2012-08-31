@@ -18,7 +18,16 @@
 		B907A7BF14FC27FC00BA5515 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B907A7BD14FC27FC00BA5515 /* MainStoryboard.storyboard */; };
 		B907A7C114FC27FC00BA5515 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = B907A7C014FC27FC00BA5515 /* Shader.fsh */; };
 		B907A7C314FC27FC00BA5515 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = B907A7C214FC27FC00BA5515 /* Shader.vsh */; };
-		B907A7C614FC27FC00BA5515 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B907A7C514FC27FC00BA5515 /* ViewController.m */; };
+		B9B2A60D15EFC9B4003B09C0 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9B2A60C15EFC9B4003B09C0 /* ViewController.mm */; };
+		B9ED9C0D15D4B48B0051DCD7 /* font.mm in Sources */ = {isa = PBXBuildFile; fileRef = B9ED9C0A15D4B48B0051DCD7 /* font.mm */; };
+		B9ED9C0E15D4B48B0051DCD7 /* texture2d.m in Sources */ = {isa = PBXBuildFile; fileRef = B9ED9C0C15D4B48B0051DCD7 /* texture2d.m */; };
+		B9ED9C1215D4B4D10051DCD7 /* SoundEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B9ED9C1015D4B4D10051DCD7 /* SoundEngine.cpp */; };
+		B9ED9C1815D4B4DF0051DCD7 /* Failure.caf in Resources */ = {isa = PBXBuildFile; fileRef = B9ED9C1415D4B4DF0051DCD7 /* Failure.caf */; };
+		B9ED9C1915D4B4DF0051DCD7 /* Start.caf in Resources */ = {isa = PBXBuildFile; fileRef = B9ED9C1515D4B4DF0051DCD7 /* Start.caf */; };
+		B9ED9C1A15D4B4DF0051DCD7 /* Success.caf in Resources */ = {isa = PBXBuildFile; fileRef = B9ED9C1615D4B4DF0051DCD7 /* Success.caf */; };
+		B9ED9C1B15D4B4DF0051DCD7 /* Thrust.caf in Resources */ = {isa = PBXBuildFile; fileRef = B9ED9C1715D4B4DF0051DCD7 /* Thrust.caf */; };
+		B9ED9C2115D4B5780051DCD7 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9ED9C2015D4B5780051DCD7 /* AudioToolbox.framework */; };
+		B9ED9C2215D4B58A0051DCD7 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9ED9C1C15D4B55A0051DCD7 /* OpenAL.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,7 +47,20 @@
 		B907A7C014FC27FC00BA5515 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
 		B907A7C214FC27FC00BA5515 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
 		B907A7C414FC27FC00BA5515 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B907A7C514FC27FC00BA5515 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; wrapsLines = 0; };
+		B9B2A60C15EFC9B4003B09C0 /* ViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		B9ED9C0915D4B48B0051DCD7 /* font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = font.h; sourceTree = "<group>"; };
+		B9ED9C0A15D4B48B0051DCD7 /* font.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = font.mm; sourceTree = "<group>"; };
+		B9ED9C0B15D4B48B0051DCD7 /* texture2d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = texture2d.h; sourceTree = "<group>"; };
+		B9ED9C0C15D4B48B0051DCD7 /* texture2d.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = texture2d.m; sourceTree = "<group>"; };
+		B9ED9C1015D4B4D10051DCD7 /* SoundEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SoundEngine.cpp; sourceTree = "<group>"; };
+		B9ED9C1115D4B4D10051DCD7 /* SoundEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoundEngine.h; sourceTree = "<group>"; };
+		B9ED9C1415D4B4DF0051DCD7 /* Failure.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Failure.caf; sourceTree = "<group>"; };
+		B9ED9C1515D4B4DF0051DCD7 /* Start.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Start.caf; sourceTree = "<group>"; };
+		B9ED9C1615D4B4DF0051DCD7 /* Success.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Success.caf; sourceTree = "<group>"; };
+		B9ED9C1715D4B4DF0051DCD7 /* Thrust.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Thrust.caf; sourceTree = "<group>"; };
+		B9ED9C1C15D4B55A0051DCD7 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
+		B9ED9C1E15D4B56A0051DCD7 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		B9ED9C2015D4B5780051DCD7 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9ED9C2215D4B58A0051DCD7 /* OpenAL.framework in Frameworks */,
+				B9ED9C2115D4B5780051DCD7 /* AudioToolbox.framework in Frameworks */,
 				B907A7A814FC27FC00BA5515 /* UIKit.framework in Frameworks */,
 				B907A7AA14FC27FC00BA5515 /* Foundation.framework in Frameworks */,
 				B907A7AC14FC27FC00BA5515 /* CoreGraphics.framework in Frameworks */,
@@ -77,6 +101,9 @@
 		B907A7A614FC27FC00BA5515 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B9ED9C2015D4B5780051DCD7 /* AudioToolbox.framework */,
+				B9ED9C1E15D4B56A0051DCD7 /* CoreAudio.framework */,
+				B9ED9C1C15D4B55A0051DCD7 /* OpenAL.framework */,
 				B907A7A714FC27FC00BA5515 /* UIKit.framework */,
 				B907A7A914FC27FC00BA5515 /* Foundation.framework */,
 				B907A7AB14FC27FC00BA5515 /* CoreGraphics.framework */,
@@ -95,7 +122,14 @@
 				B907A7C014FC27FC00BA5515 /* Shader.fsh */,
 				B907A7C214FC27FC00BA5515 /* Shader.vsh */,
 				B907A7C414FC27FC00BA5515 /* ViewController.h */,
-				B907A7C514FC27FC00BA5515 /* ViewController.m */,
+				B9B2A60C15EFC9B4003B09C0 /* ViewController.mm */,
+				B9ED9C0915D4B48B0051DCD7 /* font.h */,
+				B9ED9C0A15D4B48B0051DCD7 /* font.mm */,
+				B9ED9C0B15D4B48B0051DCD7 /* texture2d.h */,
+				B9ED9C0C15D4B48B0051DCD7 /* texture2d.m */,
+				B9ED9C1015D4B4D10051DCD7 /* SoundEngine.cpp */,
+				B9ED9C1115D4B4D10051DCD7 /* SoundEngine.h */,
+				B9ED9C1315D4B4DF0051DCD7 /* Sounds */,
 				B907A7B214FC27FC00BA5515 /* Supporting Files */,
 			);
 			path = TemplateGame;
@@ -110,6 +144,17 @@
 				B907A7B914FC27FC00BA5515 /* TemplateGame-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B9ED9C1315D4B4DF0051DCD7 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				B9ED9C1415D4B4DF0051DCD7 /* Failure.caf */,
+				B9ED9C1515D4B4DF0051DCD7 /* Start.caf */,
+				B9ED9C1615D4B4DF0051DCD7 /* Success.caf */,
+				B9ED9C1715D4B4DF0051DCD7 /* Thrust.caf */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +211,10 @@
 				B907A7BF14FC27FC00BA5515 /* MainStoryboard.storyboard in Resources */,
 				B907A7C114FC27FC00BA5515 /* Shader.fsh in Resources */,
 				B907A7C314FC27FC00BA5515 /* Shader.vsh in Resources */,
+				B9ED9C1815D4B4DF0051DCD7 /* Failure.caf in Resources */,
+				B9ED9C1915D4B4DF0051DCD7 /* Start.caf in Resources */,
+				B9ED9C1A15D4B4DF0051DCD7 /* Success.caf in Resources */,
+				B9ED9C1B15D4B4DF0051DCD7 /* Thrust.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -178,7 +227,10 @@
 			files = (
 				B907A7B814FC27FC00BA5515 /* main.m in Sources */,
 				B907A7BC14FC27FC00BA5515 /* AppDelegate.m in Sources */,
-				B907A7C614FC27FC00BA5515 /* ViewController.m in Sources */,
+				B9ED9C0D15D4B48B0051DCD7 /* font.mm in Sources */,
+				B9ED9C0E15D4B48B0051DCD7 /* texture2d.m in Sources */,
+				B9ED9C1215D4B4D10051DCD7 /* SoundEngine.cpp in Sources */,
+				B9B2A60D15EFC9B4003B09C0 /* ViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +306,7 @@
 		B907A7CA14FC27FC00BA5515 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TemplateGame/TemplateGame-Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
@@ -266,6 +319,7 @@
 		B907A7CB14FC27FC00BA5515 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TemplateGame/TemplateGame-Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
@@ -294,6 +348,7 @@
 				B907A7CB14FC27FC00BA5515 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
